@@ -1,0 +1,4 @@
+*.rpyc
+log.txt
+cache
+saves
