@@ -1,0 +1,178 @@
+{b}Summertime Saga v0.16.1{/b}
+- {i}Bug fixes:{/i}
+    - Multiple dialogue and posing improvements for a more consistent experience.
+    - Fixed car dealership crash.
+    - Fixed cat in graveyard crash.
+    - Fixed Okita's fsm resetting.
+    - Fixed labels not being called properly.
+    - Fixed debug menu not being available on android by default, added renpy console shortcut.
+    - Fixed Debbie's scenes, and not being able to sleep with her.
+    - Sara's a bit more expressive.
+    - Masturbate button when sleeping instead of a menu.
+    - Fixed machine's unforce method (no more crashes due to missing keys).
+    - Fixed MC's hand holding photo closeup.
+    - Fixed popup for Mrs. Smith's house.
+    - Fixed infinite buyer stuff for Clyde's drug deal.
+    - Adjusted animation speed of Roxxy's sex scenes.
+    - Changed Roxxy sex variables from bool to int.
+    - Fixed pizza minigame double click.
+    - Fixed bad guys driveby triggering on wrong place.
+    - Fixed Bissette's scene out of order.
+    - Pompom lollipop softlocks removed.
+    - Fixed rain vfx not being applied properly during rox16 (romance in the rain).
+    - Fixed location forcing taking on previous force in unwanted day times.
+    - Roxxy's trophy now appears in her bedroom after the contest.
+    - Fixed Roxxy scenes playing repeatable dialogues instead of initial.
+    - Fixed basketball minigame conditionals for after scenes.
+    - Fixed faceplant art not showing at end of pushup minigame.
+    - Added hard pause at end of pushup minigame to prevent skipping.
+
+
+{b}Summertime Saga v0.16.00{/b}
+- {i}New Locations:{/i}
+    - {b}Trailer park:{/b} Frontyard, Tractor, Clyde's Shack's Frontyard, Clyde's Shack Interior.
+    - {b}Mrs Smith's House:{/b} Frontyard, Entrance, Basement, Upper floor, Bedroom.
+    - {b}Pizzeria:{/b} Added the kitchen and Storage room.
+    - {b}Beach:{/b} Added the guard tower, Cabins, Side beach.
+
+- {i}New Character Events:{/i}
+    - Roxxy's Story.
+    - Crystal.
+    - Clyde.
+    - Becca & Missy.
+
+- {i}Minigames:{/i}
+    - Shooting range.
+    - Dexter fight.
+    - Basketball.
+    - Spin the bottle.
+    - Pizza minigame has been reworked to allow you to upgrade your vehicle.
+    - All the minigames (but the rap battle and poker) have been reworked and improved for consistency with the new coding style.
+    - Cellphone minigame.
+
+- {i}New sex scenes:{/i}
+    - Foursome.
+    - Crystal.
+    - Roxxy.
+    - Roxxy locker.
+    - Becca.
+    - Missy.
+
+- {i}New Dialogues:{/i}
+    - Roxxy's intro has been reworked.
+    - A character has made his appearance at the pier!
+    - Roxxy, Becca, Missy and Dexter new dialogues.
+    - Kim is plotting his dominion at the Car Dealership.
+
+- {i}New Features:{/i}
+    - The game now saves automatically on location changes. It needs more polishing, but you can enable/disable it in settings.
+    - Achievements! You can now track your progress with meaningless achievements that will be logged in your phone.
+    - Goal Tracker: You can check the progress with major characters with the cellphone goal tracker.
+    - Battery icon on cellphone updates with the time of the day.
+    - Android users get mod support.
+    - New setting for people who'd like the latest dialogues for Admiral Sploosh.
+    - You can now sleep in the beach house once purchased.
+    - New bed jerk scene with Roxxy.
+
+- {i}Rework of the codebase:{/i}
+    - New Location system has been implemented.
+    - FSMs are now used to get the location of a character.
+    - New Game class to remove even more global variables, has been partially implemented.
+    - Separated dialog from the logic.
+    - Reworked the cellphone with a comeback for the quest log  that is not quite functionnal yet.
+    - Cassie has been moved to an FSM.
+    - Anna has been moved to an FSM.
+    - Tony has been moved to an FSM.
+    - Latinas have been moved to an FSM as well.
+    - A debug menu has been integrated to the game to serve as console replacement for android.
+
+- {i}Bug fixes:{/i}
+    - Fixed Teddy bear in Mia's room's background to be daytime when it was night.
+    - All softlocks should be resolved.
+    - School chatter sound at night fixed.
+    - Save resetting fixed.
+    - Art asset touchups.
+    - Typos.
+
+{b}Summertime Saga v0.15.30{/b}
+- {i}Bug fixes:{/i}
+    - Fixed the Diane garden shovel check being inverted.
+    - Fixed mia reffering to the old homework instead of the new dictionary quest.
+    - Fixed Jenny stealing more money from you than you have when you buy her panties.
+    - Fixed Okita goggles giving an error due to her period.
+    - Fixed the attic key not being taken when you try to take it.
+    - Fixed paying Jenny to help convince Roxxy not actually taking money.
+    - Fixed Okita keycode item giving an error when looking at it from the inventory.
+
+{b}Summertime Saga v0.15.20{/b}
+- {i}Bug fixes:{/i}
+    - Fixed Erik sneak into school block when there are no ticks left.
+    - Fixed not being able to ask Debbie where to get paint if you have paint already.
+    - Fixed the magazine items to show how many you have completed already.
+    - Fixed the robed dialogue appearing during the day instead of during the sneak mission.
+    - Added a dialogue for Ross at the end of her story while in the classroom.
+    - Added a hint to the librarian for the poem book quest.
+    - Fixed Invisa-Woman.
+    - Added a reminder to get the shovel before you can work in the garden.
+    - Added a skip option to the music minigame if you fail 3 times.
+    - Fixed an error in the science minigame if you clicked a 4th ingridient before it could finish.
+    - Added dialogue for Coach Bridget when she is in her office.
+    - Fixed Jenny's panties not being added to the inventory even when paid for. (Rip off Jenny)
+
+{b}Summertime Saga v0.15.10{/b}
+- {i}Bug fixes:{/i}
+    - Fixed a retarded MAC save crash.
+    - Fixed the stupid beachhouse popup not going away.
+    - Fixed day images showing at night in the school.
+
+{b}Summertime Saga v0.15.00{/b}
+
+- {i}New Locations:{/i}
+    - {b}School:{/b} Right Hallway, Assembly Hall, Bridget's Office, Student's Lockers.
+    - {b}Map:{/b} Beach House.
+    - {b}Forest:{/b} Waterfall, Cave.
+    - {b}Frontyards:{/b} Church, Library, Gym.
+
+- {i}Main Menu & UI:{/i}
+    - {b}Cookie Jar feature :{/b} allows players to unlock, collect and replay all H-scenes.
+    - Quit confirmation showing time spent in-game playing.
+    - Menu and in-game cloud animations appear earlier.
+    - Removed Goal Tracker temporarily.
+
+- {i}New Character Events:{/i}
+    - French teacher.
+    - Music teacher.
+    - Science teacher.
+    - Art teacher.
+    - Students (Eve, Erik, Kevin, Roxxy, Judith, Annie, Dexter, Chad, Mia) buttons accross the school.
+
+- {i}New Minigames:{/i}
+    - A Guitar Hero-isque style minigame
+    - A stupid excuse for a Paint minigame.
+    - A quiz minigame to help you learn french with added picture's for those that find it too hard.
+    - A DIY science concoction maker minigame.
+
+- {i}New sex scenes:{/i}
+    - 3 Animated scenes for Dewitt.
+    - 1 Animated and 4 lewd scenes for Okita.
+    - 1 Animated and 1 lewd scenes for Bissette.
+    - 1 Animated and 2 lewd scenes for Ross.
+    - Annie, Roxxy, Eve, and Judith have gotten some scenes of love.
+
+- {i}New Dialogues:{/i}
+    - School intro rework.
+    - Randomized PA announcements.
+    - Some characters have had their dialogues modified due to Patreon guidelines. (boo!)
+
+- {i}Rework of the codebase:{/i}
+    - New Location system, that will be implemented in the near future.
+    - New method for doing minigames, and old minigames being redone with this method. (it will fix the timer bars being faster/slower depending on device specs)
+    - New Item management solution, in order to fix save file compatibility issues.
+    - Some old characters have been moved to the new FSM (Functional State Machine) flow. Begone, deprecated Events system!
+    - General cleanup of the codebase. Removing old unused variables, and working towards a more object-oriented codebase.
+    - Reworking the overall structure of the codebase, to allow more efficient work, and less merge conflicts.
+    - Ability to add descriptions to your saved games.
+
+- {i}Bug fixes:{/i}
+    - Fixed Judith texting you constantly.
+    - Fixed minigame timer bars behaving inconsistently across different devices due to specs.

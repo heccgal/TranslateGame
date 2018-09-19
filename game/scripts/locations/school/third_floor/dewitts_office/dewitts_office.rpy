@@ -1,0 +1,25 @@
+default dewitt_office_first_visit = True
+
+label dewitt_office_dialogue:
+    $ player.go_to(L_school_dewittoffice)
+    if dewitt_office_first_visit and not game.timer.is_dark():
+        call expression game.dialog_select("dewitts_office_first_visit")
+        $ dewitt_office_first_visit = False
+
+    if player.location.is_here(M_dewitt):
+        if M_dewitt.is_state(S_dewitt_office_reward):
+            call expression game.dialog_select("dewitts_office_dewitt_office_reward")
+            $ persistent.cookie_jar["Dewitt"]["unlocked"] = True
+            $ persistent.cookie_jar["Dewitt"]["gallery"]["01_unlocked"] = True
+
+            $ game.timer.tick()
+            $ M_dewitt.trigger(T_dewitt_twerk_n_derk)
+
+        elif M_dewitt.is_state(S_dewitt_office_night_visit):
+            jump expression game.dialog_select("dewitt_office_dewitt_night_visit")
+
+    elif game.timer.is_dark():
+        call expression game.dialog_select("dewitts_office_night_lock")
+        $ player.go_to(L_school_floor3)
+    $ game.main()
+# Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

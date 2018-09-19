@@ -1,0 +1,20 @@
+{
+    "judith01": {
+        "sender": "judith",
+        "content_preview": "I'm in the washroom...",
+        "content": "I'm in the washroom...\nIf you want to meet me...",
+        "image": "buttons/cellphone_text_judith01.png"
+    },
+    "mia01": {
+        "sender": "mia",
+        "content_preview": "HELP!",
+        "content": "HELP!",
+        "image": "buttons/cellphone_text_mia01.png"
+    },
+    "mia02": {
+        "sender": "mia",
+        "content_preview": "We can't find {b}my dad{/b}...",
+        "content": "We can't find {b}my dad{/b}...\nCan you come help us please?",
+        "image": "buttons/cellphone_text_mia01.png"
+    }
+}
