@@ -109,19 +109,19 @@ label intro_dialogue:
     with Pause(0.5)
     play music "<loop 79>audio/music_sad.ogg" loop fadein 1.0
     $ playSound("<loop 5 to 179>audio/ambience_rain1.ogg")
-    show expression Cutscene("intro_01", "3-е марта, в дождливый день.\nПохороны {b}моего отца{/b}. Я не могу поверить, что он действительно ушел.\nОн умер от несчастного случая, связанного с работой, в возрасте 40 лет. Оставив меня в полном одиночестве без семьи...") as cutscene with dissolve
+    show expression Cutscene("intro_01", "3-е марта, в дождливый день.\nПохороны {b}моего отца{/b}. Я не могу поверить, что он действительно ушел.\nОн умер от несчастного случая, связанного с работой, в возрасте 40 лет.\nОставив меня в полном одиночестве без семьи...") as cutscene with dissolve
     pause
     hide cutscene with dissolve
     scene black with dissolve
     with Pause(0.5)
     $ playSound("<loop 3 to 94>audio/ambience_rain2.ogg", multi = True)
-    show expression Cutscene("intro_02", "Обстоятельства его смерти стали для полиции {i}подозрительными{/i}.\nОни были у нас дома целую неделю, засыпая меня вопросами, на которые у меня не было ответов.\nНе было найдено {i}убедительных{/i} докозательств и знание для {i}правосудия{/i} моего отца, это камень для моей души.") as cutscene with dissolve
+    show expression Cutscene("intro_02", "Обстоятельства его смерти стали для полиции {i}подозрительными{/i}.\nОни были у нас дома целую неделю, засыпая меня вопросами, на которые у меня не было ответов.\nНе было найдено {i}убедительных{/i} докозательств и знание для {i}правосудия{/i} моего отца, это камень на мою душу.") as cutscene with dissolve
     pause
     hide cutscene with dissolve
     scene black with dissolve
     with Pause(0.5)
     $ playSound("<loop 5 to 181>audio/ambience_rain3.ogg")
-    show expression Cutscene("intro_03", "К счастью, подруга {b}моего отца{/b} на всю жизнь взяла меня к себе домой.\nВ ночь похорон я услышал ее воспоминания о {b}моем отце{/b} на кухне.\nВ конце концов она не выдержала и сказала, что не знает, что делать.\nКажется, {b}мой отец{/b} было связан с некоторыми реально плохими людьми, которые сейчас давяти на нее, чтобы замести {b}задолженность{/b}.") as cutscene with dissolve
+    show expression Cutscene("intro_03", "К счастью, подруга {b}моего отца{/b} на всю жизнь взяла меня к себе домой.\nВ ночь похорон я услышал ее воспоминания о {b}моем отце{/b} на кухне.\nВ конце концов она не выдержала и сказала, что не знает, что делать.\nКажется, {b}мой отец{/b} было связан с некоторыми реально плохими людьми,\nкоторые сейчас давяти на нее, чтобы замести {b}задолженность{/b}.") as cutscene with dissolve
     pause
     hide cutscene with dissolve
     scene black with dissolve
