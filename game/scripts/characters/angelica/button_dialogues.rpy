@@ -7,53 +7,53 @@ label angelica_dialogue_ross_get_linens_pre:
 
 label angelica_dialogue_ross_get_linens:
     show player 2
-    player_name "Umm, I'm doing an art project for school and we need some white linens."
-    player_name "My friend {b}Mia{/b} said you might be willing to spare some."
+    player_name "Я делаю художественный проект для школы, и нам нужно белое постельное белье."
+    player_name "Моя подруга {b}Мия{/b} сказала, что вы, возможно, захотите сэкономить."
     show player 1
     show ang 2
-    ang "Hmm, {b}Mia{/b} sent you?"
-    ang "She's such a devout young woman."
-    ang "I suppose I could give you some of our old Baptismal Robes. They're fraying anyways..."
+    ang "Хм, {b}Мия{/b} отправила вас?"
+    ang "Она такая набожная молодая женщина."
+    ang "Полагаю, я мог бы дать вам некоторые из наших старых крещальных одежд. Они в любом случае изнашиваются..."
     show player 2
     show ang 1
-    player_name "That should work just fine! Thank you so very much."
+    player_name "Это должно работать нормально! Огромное спасибо."
     show player 1
     show ang 2
-    ang "If you want to thank me, start showing up for service on Sundays."
+    ang "Если вы хотите поблагодарить меня, начните показываться по воскресеньям."
     show player 11
     show ang 1
     player_name "..."
     show ang 2
-    ang "Now wait here while I go and get them."
+    ang "А теперь подожди, пока я иду и получаю их."
     hide ang
     with dissolve
     show player 10
-    player_name "Huh, well that was easy."
+    player_name "Да, хорошо, что было легко."
     show player 11
     player_name "..."
     show player 10
-    player_name "I thought for sure she'd want something in return..."
+    player_name "Я думал, что она захочет чего-то взамен..."
     show player 11
     pause
     show ang 40 at right with dissolve
     pause
     show ang 41
-    ang "Here ya go."
+    ang "Вот вам."
     show ang 2
     show player 592
     with dissolve
-    ang "Tell {b}Mia{/b} I expect to see her early for next service! She's long past due for confession."
+    ang "Скажите {b}Мия{/b} Я ожидаю увидеть ее раньше до следующего сеанса! Она давненько не давала признания."
     show player 593
     show ang 1
-    player_name "O-okay, I'll let her know."
+    player_name "О-хорошо, я дам ей знать."
     show player 592
-    ang "Hmm!"
+    ang "Хмм!"
     hide ang
     hide player
     show player 591 at Position (xpos=0.25, ypos=1.0)
     with dissolve
-    player_name "... {b}Mia{/b} might end up fronting the bill on this one."
-    player_name "I'd better get these {b}Linens{/b} back to {b}Miss Ross{/b}."
+    player_name "... {b}Мия{/b} может закончиться тем, что выйдет на этот счет."
+    player_name "Мне лучше взять {b}Постельное белье{/b} и вернуться к {b}Мисс Росс{/b}."
     return
 
 label angelica_dialogue_change_pre:
@@ -61,28 +61,28 @@ label angelica_dialogue_change_pre:
     show player 10 at left
     show ang 1 at right
     with dissolve
-    player_name "Hi, {b}Sister Angelica{/b}."
+    player_name "Привет, {b}Сестра Анжелика{/b}."
     show player 5
     show ang 2
-    ang "You, again."
-    ang "What do you want?"
+    ang "Снова ты."
+    ang "Что ты хочешь?"
     show ang 1
     return
 
 label angelica_dialogue_change_talk:
     show player 10
-    player_name "I just want to talk."
+    player_name "Я просто хочу поговорить."
     show player 5
     show ang 2
-    ang "Quiet."
+    ang "Тише."
     show ang 1
     show player 24
-    player_name "Oh..."
+    player_name "Ох..."
     show ang 2
-    ang "If you want to talk, come visit me at night in my chambers..."
+    ang "Если вы хотите поговорить, приходите ко мне ночью в мои палаты..."
     show ang 1
     show player 25
-    player_name "Okay, then. Sorry."
+    player_name "Тогда ладно. Простите."
     hide player
     hide ang
     with dissolve
@@ -90,44 +90,44 @@ label angelica_dialogue_change_talk:
 
 label angelica_dialogue_change_graveyard:
     show player 10
-    player_name "How do you access the graveyard?"
+    player_name "Как вы получаете доступ к кладбищу?"
     show player 5
     show ang 2
-    ang "It is off limits."
-    ang "Although, it is locked and still pesky kids keep finding ways to {b}sneak through the fence{/b}."
+    ang "Это вне пределов."
+    ang "Хотя, она заперта и до сих пор надоедливые дети продолжают находить способы {b}пробраться через забор{/b}."
     show ang 1
     show player 12
-    player_name "But my dad is buried in there."
+    player_name "Но там похоронен мой отец.."
     show player 5
     ang "..."
     show ang 2
-    ang "I'm sure he is."
+    ang "Я уверен, что он."
     show ang 1
     show player 12
-    player_name "But-"
+    player_name "Но-"
     show player 16
     show ang 2
-    ang "Begone. You are wasting my time."
+    ang "Прочь. Ты тратишь мое время."
     hide ang
     hide player
     show player 16
     with dissolve
     player_name "..."
     show player 12
-    player_name "Maybe I can find {b}a way through the fence{/b} too."
+    player_name "Может, я смогу найти {b}путь через забор{/b}."
     hide player with dissolve
     return
 
 label angelica_dialogue_change_leave:
     show player 10
-    player_name "Nevermind. I have to go."
+    player_name "Неважно. Я должен идти."
     show player 5
     ang "..."
     show ang 2
-    ang "Don't waste my time like that again."
+    ang "Не трать мое время так снова."
     show ang 1
     show player 25
-    player_name "You're right, I'm sorry..."
+    player_name "Ты права, прости меня...."
     hide player
     hide ang
     with dissolve
@@ -138,26 +138,26 @@ label angelica_dialogue_pre:
     show ang 2 at right
     show player 1 at left
     with dissolve
-    ang "Are you from this Parish, young man?"
+    ang "Вы из этого прихода, молодой человек?"
     show ang 1
     show player 14
-    player_name "Hi, I was wo-"
+    player_name "Привет, я хо-"
     show ang 2
     show player 11
-    ang "Are you from this Parish, young man?"
+    ang "Вы из этого округа, молодой человек?"
     show ang 1
     show player 14
-    player_name "Uhh... Not really."
+    player_name "Ухх... Нет, реально."
     show ang 2
     show player 11
-    ang "Do you believe in God?"
+    ang "Верите ли вы в Бога?"
     show ang 1
     show player 10
-    player_name "Well..."
+    player_name "Ну..."
     show ang 2
     show player 11
-    ang "I'm sorry."
-    ang "I can only help those who share the faith of our lord!"
+    ang "Извините."
+    ang "Я могу помочь только тем, кто разделяет веру нашего Господа!"
     hide player
     hide ang
     with dissolve
