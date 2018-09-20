@@ -1,9 +1,9 @@
 label annie_dialogue_music_classroom_intro:
     show player 2
-    player_name "Hey, {b}Annie{/b}."
+    player_name "Эй, {b}Энни{/b}."
     show player 1
     show annie 3
-    ann "I'm trying to concentrate."
+    ann "Я пытаюсь сосредоточиться."
     show annie 1
     show player 3
     player_name "..."
@@ -11,11 +11,11 @@ label annie_dialogue_music_classroom_intro:
     player_name "Sorr-"
     show player 3 with dissolve
     show annie 7
-    ann "I'M CONCENTRATING!"
+    ann "Я КОНЦЕНТРИРУЮСЬ!"
     show annie 6
     show player 2f
-    player_name "And I'm leaving!"
-    player_name "Geez..."
+    player_name "И я ухожу!"
+    player_name "Боже..."
     hide player
     hide annie
     with dissolve
@@ -24,43 +24,43 @@ label annie_dialogue_music_classroom_intro:
 label annie_dialogue_ross_ask_model:
     show player 2 at left
     show annie 1 at right
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b}, и для него требуется живая модель."
+    player_name "Вы были бы заинтересованы?"
     show player 1
     show annie 3
-    ann "Can't do it. I have rounds!"
+    ann "Не могу этого сделать. У меня раунды!"
     show player 10
     show annie 1
-    player_name "Huh?"
+    player_name "Угу?"
     show player 11
     show annie 4
-    ann "I've gotta patrol for miscreants!"
-    ann "Get outta my way!"
+    ann "Я должен патрулировать для злодеев!"
+    ann "Убирайся с моего пути!"
     hide annie
     hide player
     show player 12f
     with dissolve
 
-    player_name "Alright, sheesh!"
-    player_name "Weirdo..."
+    player_name "Хорошо, блин!"
+    player_name "Чудачка..."
     return
 
 label annie_dialogue_leave:
     show player 14
-    player_name "Hey {b}Annie{/b}!"
+    player_name "Эй {b}Энни{/b}!"
     show annie 5
     show player 1
-    ann "Make it quick!"
+    ann "Сделай это быстро!"
     show annie 6
     show player 17
-    player_name "Oh, nothing... I was just saying hi!"
+    player_name "Да ничего... Я просто поздоровался!"
     show annie 4
     show player 18
-    ann "I'm on hall monitoring duty... And you're wasting my time."
+    ann "Я на дежурстве по мониторингу зала... И ты тратишь мое время."
     show annie 6
     show player 11
     player_name "..."
     show player 12
-    player_name "All right. Sorry to bother you. Sheesh!"
+    player_name "Всё порядке. Извини за беспокойство. Шиш!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
