@@ -1,7 +1,7 @@
 label aqua_dialogue_night:
     show player 10 with dissolve
-    player_name "It's getting late..."
-    player_name "I should find my way out of this underwater cavern before it gets too dark."
+    player_name "Уже поздно..."
+    player_name "Я должен найти выход из этой подводной пещеры, пока не стемнело."
     hide player with dissolve
     return
 
@@ -11,12 +11,12 @@ label aqua_dialogue_aqua_found:
     show player 16 zorder 2 at Position(xpos=.125, ypos=1.0) with dissolve
     show aqua 1
     aqua "(!!!)" with hpunch
-    aqua "You!!"
+    aqua "Ты!!"
     show player 15
     show aqua 2
-    player_name "That's right! Me!"
-    player_name "You said I had to come get it. Well here I am!"
-    player_name "Now give me back the shiny!"
+    player_name "Вот именно! Тебя!"
+    player_name "Ты сказал, что я должен прийти за ним. Ну вот и я!"
+    player_name "А теперь верни мне блеск!"
     show player 16
     show aqua 1
     aqua "Hahahaha! You funny human!"
