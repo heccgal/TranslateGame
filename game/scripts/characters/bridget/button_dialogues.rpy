@@ -4,15 +4,15 @@ label coach_bridget_dialogue_office_intro:
     show coach 3 at right
     with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "What are you doing in here?"
+    bri "Что ты здесь делаешь??"
     show player 32
     show coach 7
-    player_name "Sorry, Ma'am!!!"
-    player_name "I just had some questions!"
+    player_name "Извините, Мэм!!!"
+    player_name "Я только спросить!"
     show player 31
     show coach 3
-    bri "Questions?!"
-    bri "Like what?"
+    bri "Спросить?!"
+    bri "Что именно?"
     show coach 7
     return
 
@@ -22,44 +22,44 @@ label coach_bridget_dialogue_courtyard_intro:
     show coach 3 at right
     with dissolve
     bri "{b}[firstname]{/b}!"
-    bri "You better be training your ass off at the {b}Gym{/b}, or I'm going to shove my foot up your ass!!"
+    bri "Тебе лучше тренировать свою задницу в {b}Тренажерном зале{/b}, или я засуну ногу в твою задницу!!"
     show player 32
     show coach 7
-    player_name "Yes, Ma'am!!!"
+    player_name "Да, мэм!!!"
     show player 31
     show coach 3
-    bri "Got any questions?!"
+    bri "Есть вопросы?!"
     show coach 7
     return
 
 label coach_bridget_dialogue_training_advice:
     show player 10
     show coach 1
-    player_name "I... Well, where should I train?"
+    player_name "Я... Ну, где я должен тренироваться?"
     show coach 7
     show player 5
     bri "..."
     show player 22
     show coach 3
-    bri "I just told you!"
+    bri "Я только что сказал тебе!"
     show coach 4
-    bri "At the {b}GYM{/b}!!!"
+    bri "В {b}Тренажерном зале{/b}!!!"
     show player 10
     show coach 7
-    player_name "But... What should I train?"
+    player_name "Но... Что именно нужно тренировать?"
     show player 11
     show coach 3
-    bri "You have to work on your {b}strength{/b} and {b}dexterity{/b} if you want to make it!"
-    bri "You'll be competing in the {b}110m hurdle{/b} race to qualify this {b}school{/b} and your team into the {b}state championship{/b}!"
+    bri "Вы должны работать над вашей {b}прочностью{/b} и {b}ловкостью{/b}, если вы хотите сделать это!"
+    bri "Вы будете участвовать в гонке {b}110m с препятствиями{/b}, чтобы квалифицировать эту {b}школу{/b} и вашу команду в {b}чемпионате штата{/b}!"
     show player 10
     show coach 7
-    player_name "That's... A lot of pressure."
+    player_name "То есть... Много препятствий."
     show player 23
     show coach 3
-    bri "...And you better NOT fail me!"
+    bri "...И тебе лучше не подводить меня!"
     show player 32
     show coach 7
-    player_name "Yes, Ma'am!!!"
+    player_name "Да, мэм!!!"
     hide coach
     hide player
     with dissolve
@@ -68,15 +68,15 @@ label coach_bridget_dialogue_training_advice:
 label coach_bridget_dialogue_leave:
     show player 10
     show coach 1
-    player_name "I... I forgot."
+    player_name "И... Я забыл."
     show player 11
     show coach 3
-    bri "Forgot? Boy you are the saddest piece of meat I've ever seen!"
+    bri "Забыл? Ты самый грустный кусок мяса, что я когда-либо видела!"
     show player 22
     show coach 4
-    bri "Now get out of here and get to {b}WORK{/b}!!"
+    bri "Теперь убирайся отсюда и возьмись за {b}РАБОТУ{/b}!!"
     show player 32
     show coach 7
-    player_name "Yes, Ma'am!!!"
+    player_name "Да, мэм!!!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
