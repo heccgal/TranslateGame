@@ -304,7 +304,7 @@ label angelicas_room_dialogue_mia_route:
 label angelicas_room_dialogue_mia_harolds_thoughts:
     scene church_nun_night_c
     show player 12 with dissolve
-    player_name "( Мне нужно поговорить с {б}Гарольдом{А/Б} прежде чем я вижу {б}Сестру Анжелику{/б}. )"
+    player_name "( Мне нужно поговорить с {b}Гарольдом{/b} прежде чем я вижу {b}Сестру Анжелику{/b}. )"
     hide player with dissolve
     return
 

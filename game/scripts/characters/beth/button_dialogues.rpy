@@ -4,48 +4,48 @@ label beth_dialogue_pre:
     show xtra 27 zorder 2 at center
     show player 1 zorder 3 at left
     with dissolve
-    beth "Howdy, mister!"
+    beth "Здравствуйте, Мистер!"
     show player 14
     show beth 1
-    player_name "Hi."
+    player_name "Привет."
     show player 1
     show beth 2
-    beth "Looking to buy some sweet holes, are ya?"
+    beth "Разглядываешь, чтобы купить некоторые сладкие дыры?"
     show beth 1
     return
 
 label beth_dialogue_do_not_know:
     show player 14
-    player_name "Hmm... I'm not sure what I need to buy yet."
+    player_name "Хм... Я не уверен, что мне нужно купить еще."
     show player 1
     show beth 2
-    beth "You don't know?"
+    beth "Вы не знаете?"
     show player 14
     show beth 1
-    player_name "Well, I'm buying these for someone as a gift but I'm not sure what he likes."
+    player_name "Ну, я покупаю эти для кого-то в качестве подарка, но я не уверен, что он любит."
     show player 1
     show beth 2
-    beth "I can't help ya if you don't know what ya'd like!"
+    beth "Я не могу помочь, если вы не знаете, что нравится!"
     show player 14
     show beth 1
-    player_name "I'll come back later when I know the toppings."
+    player_name "Я вернусь позже, когда я узнаю начинку."
     return
 
 label beth_dialogue_want_donuts:
     show player 14
-    player_name "I'd like to buy a small box, please."
+    player_name "Я хотел бы купить маленькую коробку, пожалуйста."
     show player 1
     show beth 2
-    beth "Sure thing!"
-    beth "What kind of glaze and topping would you like on them?"
+    beth "Хорошо!"
+    beth "Какой глазури и Топпинг бы вы хотели нанести?"
     return
 
 label beth_dialogue_leave:
     show player 14
-    player_name "I'm fine, thanks!"
-    player_name "Perhaps another time..."
+    player_name "Я в порядке, спасибо!"
+    player_name "Возможно, в другой раз..."
     show player 1
     show beth 2
-    beth "Sure thing, see ya!"
+    beth "Конечно, увидимся!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
