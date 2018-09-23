@@ -7,101 +7,101 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show player 5f at right
     show roxxy 3d at Position (xpos=700)
     with dissolve
-    crys "Is that mah daughter?"
-    crys "What are ya'll doing here?"
+    crys "Это что, дочь Маха?"
+    crys "Что ты здесь делаешь?"
     show crystal jail 1
     show player 11f
     show roxxy 3
-    rox "You really screwed up this time {b}Mom{/b}!"
-    rox "They foreclosed the trailer and they're talking about sending you to prison!"
+    rox "Ты действительно облажалась на этот раз {b}мама{/b}!"
+    rox "Они закрыли трейлер и говорят о том, чтобы отправить тебя в тюрьму!"
     show roxxy 3d
     show crystal jail 2
-    crys "Pfft, these pigs aint gonna do nuthin'."
-    crys "They're all talk!"
+    crys "Пффф, эти свиньи ничего не сделают."
+    crys "Они все говорят!"
     show crystal jail 1
     show player 5f
     show roxxy 3c
-    rox "{b}Mom{/b} this isn't a joke!"
-    rox "They found a pound of Meth!"
-    rox "You're going to get sent away for a long time!"
+    rox "{b}Мама{/b}, это не шутка!"
+    rox "Они нашли фунт метамфетамина!"
+    rox "Тебя надолго отправят в тюрьму!"
     show roxxy 3d
     show crystal jail 2
-    crys "Phew, at least they didn't find the big stash!"
+    crys "По крайней мере, они не нашли большую заначку!"
     show crystal jail 1
     show player 11f
     player_name "!!!" with hpunch
     show player 10f
-    player_name "You mean there's more?!"
+    player_name "То есть еще?!"
     show player 5f
     show crystal jail 2
-    crys "Huh?"
-    crys "I dunno what yer talkin' about..."
-    crys "Why'd you bring your boyfriend down here anyways?!"
-    crys "This is family business and it's personal!"
-    crys "Didn't I teach you that?"
+    crys "Да?"
+    crys "Я не знаю, о чем ты говоришь..."
+    crys "Зачем ты привела сюда своего парня?!"
+    crys "Это семейный бизнес и это личное!"
+    crys "Разве я не учила тебя этому?"
     show crystal jail 3
     show roxxy 30
-    rox "He's not my boyfrien-"
+    rox "Он не мой бойфренд-"
     show roxxy 3d
     rox "..."
     show roxxy 3c
-    rox "Would you focus please!"
-    rox "I know damn well that stuff all belongs to that idiot {b}Clyde{/b}!"
+    rox "Не могли бы вы сосредоточиться!"
+    rox "Я чертовски хорошо знаю, что все это принадлежит этому идиоту {b}Клайду{/b}!"
     show roxxy 3b
     show crystal jail 2
-    crys "What are you doin'?!"
-    crys "Shut yer mouth!"
+    crys "Что ты делаешь?!"
+    crys "Заткни свой рот!"
     show crystal jail 3
     show roxxy 3c
-    rox "Why are you taking the fall for him?"
-    rox "This is his mess, not ours..."
+    rox "Зачем ты берешь вину на себя?"
+    rox "Это его бардак, не наш..."
     show roxxy 3d
     show crystal jail 2
-    crys "He's family, {b}Roxanne{/b}!"
-    crys "... And we take care of family!"
-    crys "Now, I know I taught you that!"
+    crys "Он член семьи, {b}Роксана{/b}!"
+    crys "... А мы заботимся о семье!"
+    crys "Я знаю, кто научил тебя этому!"
     show crystal jail 1
     show roxxy 30
-    rox "This is stupid..."
+    rox "Это глупоы..."
     show roxxy 29
     show crystal jail 2
-    crys "I told your {b}Auntie{/b} I'd look after him while he was up here."
-    crys "I ain't about to watch him get hauled off to prison."
+    crys "Я сказала твоей тетушке, что присмотрю за ним, пока он здесь."
+    crys "Я не собираюсь смотреть, как его везут в тюрьму."
     show crystal jail 1
     show roxxy 3c
-    rox "... And what am I supposed to do?!"
-    rox "If you get convicted they're gonna reposess the trailer!"
-    rox "Am I supposed to just sleep outside in the woods?"
+    rox "... И что мне делать?!"
+    rox "Если тебя осудят, они поместят трейлер в хранилище!"
+    rox "Я должена просто спать на улице в лесу?"
     show roxxy 3b
     show crystal jail 2
-    crys "Don't be stupid."
-    crys "You can just go on down to live with your {b}Auntie and cousins{/b}."
+    crys "Не глупи."
+    crys "Ты можешь просто пойти и жить со своей {b}тетушкой и кузенами{/b}."
     show crystal jail 1
     show roxxy 3
-    rox "They live in an old run down cabin, in the middle of nowhere!"
+    rox "Они живут в старом захудалом домике, в глуши!"
     show roxxy 3d
     show crystal jail 2
-    crys "... So?"
+    crys "... И?"
     show crystal jail 1
     show roxxy 3
-    rox "So, no fucking way!"
-    rox "I'm gonna turn that jackass in myself and get the trailer back."
+    rox "Так что, ни хрена себе!"
+    rox "Я собираюсь превратить этого осла в себя и вернуть трейлер."
     show roxxy 3d
     show crystal jail 4
-    crys "{b}*Gasp*{/b}!"
+    crys "{b}*Вздох*{/b}!"
     show crystal jail 2
-    crys "You'll do no such thing!"
-    crys "I didn't raise me no damned rat!"
-    crys "Now I dun told you, {b}Clyde{/b} is family and you don't snitch on family!"
+    crys "Ты этого не сделаешь!"
+    crys "Я не растила ни одной чертовой крысы!"
+    crys "Теперь я сказала вам, что {b}Клайд{/b} - это семья, и вы не стучите на семью!"
     show crystal jail 3
     show roxxy 3b
     rox "..."
     show crystal jail 2
-    crys "You hear me girl?!"
+    crys "Ты слышишь меня девочка?!"
     show crystal jail 3
     rox "..."
     show roxxy 3c
-    rox "Yeah, we'll see..."
+    rox "Да, посмотрим..."
     rox "C'mon, {b}[firstname]{/b}. Let's get outta here."
     rox "I can't stand to look at her right now."
     hide roxxy with dissolve
