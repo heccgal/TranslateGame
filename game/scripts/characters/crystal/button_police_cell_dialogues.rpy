@@ -102,14 +102,14 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     rox "..."
     show roxxy 3c
     rox "Да, посмотрим..."
-    rox "C'mon, {b}[firstname]{/b}. Let's get outta here."
-    rox "I can't stand to look at her right now."
+    rox "Нуже, {b}[firstname]{/b}. Давай выбираться отсюда."
+    rox "Я не могу смотреть на нее сейчас."
     hide roxxy with dissolve
     show player 5 with dissolve
     player_name "..."
     show crystal jail 2
-    crys "I'm not joking, {b}Roxanne{/b}!"
-    crys "If you snitch you can forget about livin' with me!"
+    crys "Я не шучу, {b}Роксана{/b}!"
+    crys "Если ты стукач, ты можешь забыть о жизни со мной!"
     show crystal jail 3
     scene black with fade
     pause
@@ -119,114 +119,114 @@ label crystal_police_cell_dialogue_roxxy_talk_to_crystal:
     show roxxy 3df at Position (xpos=400)
     show earl 2 at right
     with dissolve
-    ear "Well, did you have any luck convincing her to tell the truth about this mess?"
+    ear "Хорошо, тебе удалось убедить ее рассказать правду об этом кошмаре?"
     show earl 1
     show roxxy 29f
     rox "..."
     show player 10
-    player_name "No, sir."
+    player_name "Нет, сер."
     show player 5
     show earl 2
-    ear "That's a damn shame..."
+    ear "Чертовски жаль..."
     show earl 1
     player_name "..."
     show roxxy 3cf
-    rox "What if I turned in the one responsible for all this?"
+    rox "Что если я сдам того, кто ответственен за все это?"
     show roxxy 3df
     show earl 2
-    ear "You got information for me?"
+    ear "У тебя есть информация для меня?"
     show earl 1
     show player 11
     show roxxy 3cf
-    rox "I didn't say that!"
-    rox "I'm just asking... \"What if.\""
+    rox "Я этого не говорила!"
+    rox "Я просто спрашиваю... \"Что если.\""
     show roxxy 3bf
     show player 5
     show earl 2
-    ear "Hmm..."
-    ear "Well, if you did have information about the real culprit."
-    ear "... And proof that your {b}mother{/b} wasn't involved in the creation or distribution of the drugs."
-    ear "I could get the charges dropped down to simple posession."
+    ear "Хмм..."
+    ear "Ну, если бы у вас была информация о настоящем преступнике."
+    ear "... И доказательство того, что ваша {b}мать{/b} не участвовала в создании или распространении наркотиков.."
+    ear "Я мог бы снять обвинения с простого владения."
     show roxxy 3df
-    ear "That's still a year in prison and a hefty fine."
+    ear "Вот еще год тюрьмы и огромный штраф."
     show earl 1
     show roxxy 3bf
     rox "..."
     show roxxy 3cf
-    rox "What if someone else hid the drugs in our trailer and she didn't know about it?"
+    rox "Что если кто-то спрятал наркотики в нашем трейлере, и она не знала об этом?"
     show roxxy 3df
     show earl 2
-    ear "Oh, now that's interesting..."
-    ear "If you could prove that she was unaware that someone else had hidden drugs in her home or had forced her to hide them against her will..."
-    ear "... It's possible she won't see prison at all."
+    ear "О, вот это интересно..."
+    ear "Если бы вы могли доказать, что она не знала, что кто-то спрятал наркотики в ее дом и заставили ее скрыть их против ее воли..."
+    ear "... Возможно, она не увидит свободу."
     show earl 1
     show roxxy 3cf
-    rox "... And the trailer?"
+    rox "... И трейлер?"
     show roxxy 3df
     show earl 2
-    ear "Hmm..."
-    ear "Well, she'd have to stay in jail until her trial."
-    ear "In that case the trailer would need to remain foreclosed."
-    ear "Unless you could post her bail money."
+    ear "Хмм..."
+    ear "Ну, ей придется остаться в тюрьме до суда."
+    ear "В этом случае прицеп должен оставаться закрытым."
+    ear "Если только вы не можете внести залог."
     show earl 1
     show player 12
-    player_name "How much would that be?"
+    player_name "Сколько это будет стоить?"
     show player 5
     show earl 2
-    ear "For this amount of Narcotics?"
-    ear "I'd expect nothing less than $50,000..."
+    ear "За такое количество наркотиков?"
+    ear "Я ожидаю не меньше, чем $50,000..."
     show earl 1
     show roxxy 2bf
     show player 23
-    player_name "Holy crap!"
+    player_name "Святое дерьмо!"
     show player 12
-    player_name "That much?"
+    player_name "Так много?"
     show player 10
-    player_name "Where would we get that kind of money?"
+    player_name "Где мы возьмем такие деньги?"
     show player 5
     show roxxy 14f
     rox "..."
     show earl 2
-    ear "Well, I'd best get back to work."
-    ear "I'm sorry I can't do more to help you kids out..."
+    ear "Ну, мне лучше вернуться к работе."
+    ear "Мне жаль, что я не могу сделать больше, чтобы помочь вам дети..."
     show earl 1
     show player 10
-    player_name "Thanks again, Officer."
+    player_name "Спасибо, офицер."
     show player 5
     hide earl with dissolve
     show player 10
-    player_name "What are you gonna do?"
+    player_name "Что ты собираешься делать?"
     show player 5
     show roxxy 33 at center with dissolve
-    rox "... I dunno."
-    rox "I could turn {b}Clyde{/b} in but that wouldn't really do me much good."
-    rox "We'll still lose the trailer and {b}Mom{/b} will probably disown me."
+    rox "... Я не знаю."
+    rox "Я могла бы сдать {b}Клайда{/b}, но это не принесет мне большой пользы."
+    rox "Мы все равно потеряем трейлер ,и {b}мама{/b}, вероятно, откажется от меня."
     show roxxy 32
     player_name "..."
     show roxxy 33
-    rox "I just need to think things over for awhile."
+    rox "Мне просто нужно немного подумать."
     show roxxy 32
     show player 10
-    player_name "... Do you need a place to stay? I'm sure, my {b}Landlady{/b} wouldn't mind letting you crash on the couch for as long as you need."
+    player_name "... Тебе нужно где-то остановиться? Я уверен, что моя {b}хозяйка{/b} не будет возражать, если ты будешь спать на диване столько, сколько тебе нужно."
     show player 5
     show roxxy 33
-    rox "... No, thanks."
-    rox "I can stay at {b}Becca's{/b} place for a few days."
+    rox "... Нет, спасибо."
+    rox "Я могу остановиться у {b}Бекки{/b} на несколько дней."
     show roxxy 32
     show player 10
-    player_name "... Alright."
-    player_name "I guess, I'll see you at school then?"
+    player_name "... Хорошо."
+    player_name "Думаю, тогда увидимся в школе?"
     show player 5
     show roxxy 33
-    rox "... Yeah."
+    rox "... Да."
     hide roxxy with dissolve
     player_name "( ... )"
     show player 24
-    player_name "( Poor, {b}Roxxy{/b}. )"
-    player_name "( I wish there was something I could do to help her. )"
+    player_name "( Бедная, {b}Рокси{/b}. )"
+    player_name "( Хотел бы я сделать что-нибудь, чтобы помочь ей. )"
     show player 90
-    player_name "( ... Maybe I should {b}speak with Clyde{/b} tomorrow. )"
-    player_name "( This whole mess is his fault after all... )"
+    player_name "( ... Может, мне стоит поговорить с {b}Клайдом{/b} завтра. )"
+    player_name "( В конце концов, он во всём виноват... )"
     hide player with dissolve
     return
 
@@ -238,16 +238,16 @@ label crystal_police_cell_dialogue_default:
     pause .5
     show player 5f at right
     with dissolve
-    crys "You best be keepin' your mouth shut about all this!"
-    crys "Ya hear me?!"
+    crys "Тебе лучше держать свой рот закрытым обо всем этом!"
+    crys "Слышишь?!"
     show crystal jail 3
     show player 10f
-    player_name "Y-yes, ma'am."
+    player_name "Д-Да, мэм.."
     show crystal jail 2
     show player 5f
-    crys "Good."
-    crys "Keep an eye on my daughter too, while yer at it..."
-    crys "I didn't raise her to be no snitch!"
+    crys "Хороший."
+    crys "Держите глаз за моей дочерью, а ты на него..."
+    crys "Я не растила ее стукачкой!"
     show crystal jail 3
     player_name "..."
     return

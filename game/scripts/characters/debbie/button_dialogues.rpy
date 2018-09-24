@@ -2,10 +2,10 @@ label debbie_dialogue_mom_relaxing:
     scene location_home_kitchen_closeup
     show player 1 at left with dissolve
     show debbie 2 at right with dissolve
-    deb "Hey, sweetie! Shouldn't you get going?"
+    deb "Привет, милый! Разве ты не должен идти?"
     show player 2 at left
     show debbie 1 at right
-    player_name "Yeah. I was on my way."
+    player_name "Да. Я был в пути."
     hide player
     hide debbie
     with dissolve
@@ -19,32 +19,32 @@ label debbie_dialogue_mom_not_revealing_kitchen:
     show debbie 48 at Position(xpos=660,ypos=768) with dissolve
     deb "( !!! )"
     show debbie 48c
-    deb "Sweetie, what are you doing back there?"
+    deb "Милый, что ты там делаешь?"
     show debbie 50j
-    player_name "Mmm, noooothing..."
+    player_name "Ммм, ничегооо..."
     show debbie 50k
-    deb "Sweetie!"
-    deb "What if {b}[jen_name]{/b} comes in?"
-    deb "She'd have a cow!"
+    deb "Милый!"
+    deb "Что мы будем делать, если {b}[jen_name]{/b} войдёт?"
+    deb "Она будет неприятно удивлена!"
     show debbie 50j
-    player_name "Heh, don't worry, she's up in her room."
-    player_name "... And besides..."
-    player_name "... This will only take a moment."
+    player_name "Не волнуйся, она наверху, в своей комнате."
+    player_name "... И, кроме того..."
+    player_name "... Это займет всего минуту."
     show debbie 50k
-    deb "You're such a bad b-"
-    deb "Ahh!"
-    deb "... Alright! Just be quick!"
+    deb "Ты такой плохой паре-"
+    deb "Ахх!"
+    deb "... Все в порядке! Только побыстрее!"
     show debbie 49_50_50b at Position(xpos=660,ypos=768) with dissolve
     pause
     pause
     show debbie 48c with dissolve
-    deb "Okay, okay! We have to stop!"
+    deb "Ладно, ладно! Мы должны остановиться!"
     show debbie 50k
-    deb "Anymore and I'll have to go change my panties!"
+    deb "На этом всё, и мне придется сменить трусики!"
     show player 1 at left
     show debbie 52 at right
     with dissolve
-    deb "What else can I help you with?"
+    deb "Чем я еще могу тебе помочь?"
     show debbie 1
     return
 
@@ -52,56 +52,56 @@ label debbie_dialogue_mom_fetch_lotion:
     show player 13 at left
     show debbie 2 at right
     with dissolve
-    deb "Did you find my {b}lotion{/b} in my {b}bedroom dresser{/b}?"
+    deb "Ты нашёл мой {b}лосьон{/b} в {b}комоде спальни{/b}?"
     show debbie 1
     show player 10
-    player_name "No, not yet."
+    player_name "Нет, еще нет."
     show player 5
     show debbie 2
-    deb "Well, what are you waiting for?"
+    deb "Ну, так чего же ты ждешь?"
     return
 
 label debbie_dialogue_mom_car_condition:
     show player 10 at left
     show debbie 61 at right
     with dissolve
-    player_name "I found out why the car won't start..."
+    player_name "Я выяснил, почему машина не заводится..."
     show player 5
     show debbie 63
-    deb "Oh?! Did you fix it already?"
+    deb "Да?! Ты уже все исправила?"
     show debbie 61
     pause
     show player 25
-    player_name "It's pretty bad, {b}[deb_name]{/b}... I don't think I can fix this one."
+    player_name "Это довольно ужастно, {b}[deb_name]{/b}... Не думаю, что смогу это исправить."
     show player 5
     show debbie 39
-    deb "Oh."
+    deb "Ох."
     show debbie 38
     show player 10
-    player_name "In fact, I think we're gonna have to replace the whole engine. It's really busted up bad!"
-    player_name "It'll be expensive..."
+    player_name "На самом деле, я думаю, нам придется заменить весь двигатель. На этом можно действительно разориться!"
+    player_name "Это будет дорого..."
     show player 5
     pause
     show debbie 60
-    deb "What about the insurance? We should go and see what the car {b}dealership{/b} will do for us."
-    deb "Hopefully they will cover the repairs, otherwise..."
+    deb "А что насчет страховки? Мы должны пойти и посмотреть, что {b}автосалон{/b} может сделать для нас."
+    deb "Надеюсь, они покроют ремонт, в противном случае..."
     show debbie 39
-    deb "... We might be without a car for awhile."
+    deb "... Мы останемся без машины на некоторое время."
     show debbie 38
     pause
     show player 10
-    player_name "I'm sure it'll be alright, {b}[deb_name]{/b}. I'll go and talk to the {b}dealership{/b}."
+    player_name "Уверен, все будет хорошо., {b}[deb_name]{/b}. Я пойду и поговорю с {b}дилерами авто{/b}."
     show player 5
     pause
     show player 14
-    player_name "I'll get it fixed."
-    player_name "One way or another."
+    player_name "Я все исправлю."
+    player_name "Так или иначе."
     show debbie 61
     show player 13
     pause
     show debbie 62
-    deb "I'm so glad I have you around, sweetie!"
-    deb "Thank you!"
+    deb "Я так рада, что ты рядом, дорогой!"
+    deb "Спасибо тебе!"
     return
 
 label debbie_dialogue_mom_revealing_kitchen_pre:
@@ -116,33 +116,33 @@ label debbie_dialogue_mom_revealing_feel_ass_sex_pre:
     show debbie 48 at Position(xpos=660,ypos=768) with dissolve
     deb "( !!! )"
     show debbie 48c
-    deb "Sweetie?"
-    deb "What are you doing back there?"
+    deb "Милый?"
+    deb "Что ты там делаешь?"
     show debbie 50j
-    player_name "Mmm, noooothing..."
+    player_name "Ммм, ничегооо..."
     show debbie 50k
-    deb "Ahh..."
-    deb "What if {b}[jen_name]{/b} comes in?"
-    deb "She'd have a cow!"
+    deb "Ахх..."
+    deb "Что мы будем делать, если {b}[jen_name]{/b} войдёт?"
+    deb "Она будет неприятно удивлена!"
     show debbie 50j
-    player_name "Heh, don't worry. She's up in her room."
+    player_name "Не волнуйся, она наверху, в своей комнате."
     show debbie 49_50_50b at Position(xpos=660,ypos=768) with dissolve
     pause
     pause
     pause
     show debbie 50j with dissolve
-    player_name "Does that feel good?"
+    player_name "Ты хорошо себя чувствуешь?"
     show debbie 50k
-    deb "Of course it does..."
-    deb "Mmm, you're making me so wet!"
-    deb "Ahh!"
+    deb "Конечно..."
+    deb "Ммм, ты делаешь меня такой мокрой.!"
+    deb "Ахх!"
     show debbie 50j
-    player_name "What if I pulled these panties down and fucked you right here?"
+    player_name "Что, если я стянул эти трусики и трахнул тебя прямо здесь?"
     show debbie 50k
-    deb "Oh God..."
-    deb "Okay, do it! Take me right here! Just be quick, sweetie!"
+    deb "Оо боже..."
+    deb "Ладно, давай! Возьмите меня прямо здесь! Только побыстрее, дорогой!"
     show debbie 50j
-    player_name "Mmm, you better hold on to that cabinet tight!"
+    player_name "Ммм, держись крепче за этот шкаф!"
     show debbie 50c with dissolve
     pause
     show debbie 50d with dissolve
@@ -152,23 +152,23 @@ label debbie_dialogue_mom_revealing_feel_ass_sex_pre:
     with dissolve
     pause
     show debbie 50g with dissolve
-    deb "Oh, yes!."
+    deb "Ох да!."
     hide debbie
     show debbies 164 at right
     with dissolve
-    deb "Ahhh!"
-    player_name "Wow, you're dripping..."
+    deb "Аххх!"
+    player_name "Вау, с тебя капает..."
     return
 
 label debbie_dialogue_mom_revealing_feel_ass_sex_after:
     show expression AnimatedImage("debbies", [164,165,166,167,168], M_mom) as debbies at right with dissolve
-    deb "Oh, fuck me!"
+    deb "Ох, трахни меня!"
     return
 
 label mom_kitchen_fuck_loop:
-    show screen sex_anim_buttons 
+    show screen sex_anim_buttons
     pause
-    hide screen sex_anim_buttons 
+    hide screen sex_anim_buttons
     $ animcounter = 0
     while animcounter < 4:
         if anim_toggle:
@@ -195,15 +195,15 @@ label mom_kitchen_fuck_loop:
 label debbie_kitchen_hscene_dialog:
     if animcounter == 1:
         if randomizer() <= 50:
-            deb "Oh!!!{p=1}{nw}"
+            deb "ОХ!!!{p=1}{nw}"
         else:
-            deb "AHHH!!!{p=1}{nw}"
+            deb "АХХХ!!!{p=1}{nw}"
 
     elif animcounter == 3:
         if randomizer() <= 50:
-            deb "Did you cum, yet?{p=2}{nw}"
-            player_name "Not yet...{p=2}{nw}"
-            deb "Hurry, sweetie... I don't think... I can take... Much more!{p=3}{nw}"
+            deb "Ты кончил?{p=2}{nw}"
+            player_name "Еще нет...{p=2}{nw}"
+            deb "Поторопись, милый... Я не думаю, что... Я могу взять... Куда более!{p=3}{nw}"
     return
 
 label mom_kitchen_fuck_cum:
@@ -216,36 +216,36 @@ label mom_kitchen_fuck_cum:
 
 label mom_kitchen_fuck_cum_dialogue:
     player_name "( !!! )"
-    player_name "Oh, {b}[deb_name]{/b}!"
-    player_name "I'm-"
-    deb "Shhhh!"
+    player_name "Ох, {b}[deb_name]{/b}!"
+    player_name "Я-"
+    deb "Шшшш!"
     show debbies 169 with flash
-    player_name "UHH!!!"
+    player_name "Ухх!!!"
     hide debbies
     show debbie 50h at right
     with dissolve
     pause
-    deb "Oh, I love it when you take charge!"
-    player_name "Did you cum?"
-    deb "Oh, yeah!"
+    deb "Обожаю, когда ты за главного!"
+    player_name "Ты кончил?"
+    deb "Ох, да!"
     show debbie 50i at right
     show player 434 at left
     with dissolve
-    deb "{b}*Phew*{/b}, my legs are still shaking..."
-    deb "... Wow you came a lot!"
+    deb "{b}*Фуф*{/b}, мои ноги все еще дрожат..."
+    deb "... Ничего себе, вы тебе много!"
     pause
     show debbie 61 with dissolve
     show player 10
-    player_name "Sorry."
+    player_name "Прости."
     show player 13
     show debbie 62
-    deb "No, I love it! It feels nice inside of me."
+    deb "Нет, мне это нравится! Внутри меня так хорошо."
     show debbie 61
     show player 14
-    player_name "Heh, I love it when you say things like that"
+    player_name "Мне нравится, когда ты так говоришь"
     show player 13
     show debbie 62
-    deb "Hehe, well it's the truth..."
+    deb "Хе-хе, ну это правда..."
     hide player
     hide debbie
     with dissolve
@@ -258,21 +258,21 @@ label debbie_dialogue_mom_revealing_feel_ass_no_sex:
     with dissolve
     pause
     show debbie 50k at Position(xpos=660,ypos=768) with dissolve
-    deb "Well hello to you to, sweetie..."
+    deb "Ну привет тебе, дорогой...."
     show debbie 50j
-    player_name "Hey, {b}[deb_name]{/b}..."
+    player_name "Хей, {b}[deb_name]{/b}..."
     show debbie 50k
-    deb "Just be careful..."
+    deb "Просто будь осторожен..."
     show debbie 49_50_50b at Position(xpos=660,ypos=768) with dissolve
     pause
     pause
     show debbie 50k with dissolve
-    deb "Okay, okay! We have to stop!"
-    deb "Anymore and I'll have to go change my panties!"
+    deb "Ладно, ладно! Мы должны остановиться!"
+    deb "На этом всё, и мне придется сменить трусики!"
     show player 1 at left
     show debbie 52 at right
     with dissolve
-    deb "What else can I help you with?"
+    deb "Чем я еще могу тебе помочь?"
     show debbie 1
     return
 
@@ -282,10 +282,10 @@ label debbie_dialogue_mom_revealing_talk:
     show debbie 1 at right
     show player 2 at left
     with dissolve
-    player_name "Hey {b}[deb_name]{/b}, got a minute?"
+    player_name "Привет {b}[deb_name]{/b}, есть минутка?"
     show debbie 2
     show player 1
-    deb "Need something, {b}[firstname]{/b}?"
+    deb "Что-то нужно, {b}[firstname]{/b}?"
     show debbie 1
     return
 
@@ -294,29 +294,29 @@ label debbie_dialogue_mom_revealing:
     show debbie 2 at right
     with dissolve
     if randomizer() <= 10:
-        deb "There's my big man..."
+        deb "Вот мой большой человек..."
     elif randomizer() <= 20:
-        deb "Hey there, sweetie."
-        deb "What can I do for you?"
+        deb "Привет, дорогая."
+        deb "Что я могу для тебя сделать?"
     elif randomizer() <= 30:
-        deb "Awww..."
-        deb "No hello squeeze?"
+        deb "Эмм..."
+        deb "Без приветствия?"
     elif randomizer() <= 70:
-        deb "Looking for me, I hope."
+        deb "В поисках меня, надеюсь."
     elif randomizer() <= 80:
-        deb "Need something, sweetie?"
-        deb "Or can I do something for you?"
+        deb "Тебе что-то нужно, милый?"
+        deb "Или я могу сделать что-нибудь для тебя?"
     elif L_home_shower.is_here(M_jenny):
-        deb "{b}[jen_name]{/b} is in the shower."
-        deb "In case you needed me for a quick sec."
+        deb "{b}[jen_name]{/b} находится в душе."
+        deb "В случае, если ты нуждаешься во мне в течение секунды."
     else:
-        deb "I was hoping I'd see you today."
+        deb "Я надеялась, что увижу тебя сегодня."
     show debbie 1
     show player 14
     if randomizer() <= 50:
-        player_name "Hello, {b}[deb_name]{/b}."
+        player_name "Привет, {b}[deb_name]{/b}."
     else:
-        player_name "You're looking good today."
+        player_name "Ты сегодня хорошо выглядишь."
     show player 13
     return
 
@@ -324,69 +324,69 @@ label debbie_dialogue_mom_not_revealing:
     show player 1 at left
     show debbie 2 at right
     with dissolve
-    deb "Hi, sweetie!"
-    deb "Is everything okay at school?"
+    deb "Привет, милый!"
+    deb "В школе все в порядке?"
     show player 14 at left
     show debbie 1 at right
-    player_name "Yeah..."
+    player_name "Да..."
     show player 13 at left
     show debbie 13 at right
-    deb "I hope you didn't fall too far behind, what with all that's happened?"
+    deb "Надеюсь, ты не зашел слишком далеко, со всем этим?"
     show debbie 14 at right
     show player 14 at left
-    player_name "Nah, I'll catch up."
+    player_name "нет, я догоню."
     show player 13 at left
     show debbie 13 at right
-    deb "Just let me know if there is ever anything I can do to help?"
+    deb "Просто дайте мне знать, если есть что-нибудь я могу сделать, чтобы помочь?"
     show player 21 at left
     show debbie 14 at right
-    player_name "Okay, {b}[deb_name]{/b}..."
-    player_name "I should go."
+    player_name "Хорошо, {b}[deb_name]{/b}..."
+    player_name "Я должен идти."
     show player 13 at left
     show debbie 3 at right
-    deb "Don't stay out too late!"
+    deb "Не задерживайся до поздна!"
     show debbie 1
     return
 
 label debbie_dialogue_ask_about_dad:
     show player 10 at left
     show debbie 1 at right
-    player_name "{b}[deb_name]{/b}, do you know what happened to my {b}Dad{/b}?"
+    player_name "{b}[deb_name]{/b}, Ты знаете, что случилось с моим {b}Отцом{/b}?"
     show player 11
     show debbie 60 at Position (xoffset=-28) with dissolve
-    deb "Oh... Sweetie, I..."
+    deb "Ох... Милый, Я..."
     show debbie 59 at Position (xoffset=-28)
     show player 10
-    player_name "Please, I want to know the truth!"
+    player_name "Пожалуйста, я хочу знать правду!"
     show player 11
     show debbie 60 at Position (xoffset=-28)
-    deb "I'm sorry, sweetie. I don't have any answers for you."
-    deb "The police investigation came up with nothing..."
-    deb "In fact, It's my understanding that the case is on hold due to lack of evidence."
+    deb "Прости, милый. У меня нет ничего для тебя."
+    deb "Полицейское расследование ничего не дало..."
+    deb "На самом деле, я понимаю, что дело приостановлено из-за отсутствия доказательств."
     show debbie 59 at Position (xoffset=-28)
     show player 10
-    player_name "Yeah but they're gonna find something, right? I mean it's their job!"
+    player_name "Да, но они найдут что-нибудь, не так ли? Я имею в виду, что это их работа!"
     show player 11
     show debbie 60 at Position (xoffset=-28)
-    deb "We can only hope."
+    deb "Мы можем только надеяться."
     show debbie 59 at Position (xoffset=-28)
     pause
     show debbie 60 at Position (xoffset=-28)
-    deb "Sweetie..."
-    deb "I want closure on this whole thing too..."
-    deb "... But your {b}Father{/b} wouldn't want us obsessing over this."
+    deb "Милый..."
+    deb "Я тоже хочу закрыть все это..."
+    deb "... Но твой {b}Отец{/b} не хотел бы, чтобы мы были одержимы этим."
     show debbie 63 at Position (xoffset=-28)
-    deb "You're a young man and you need to focus on living your life"
-    deb "Do it for your {b}Dad{/b}."
+    deb "Ты молод, и тебе необходимо сосредоточиться на том, чтобы жить своей жизнью"
+    deb "Сделай это для своего {b}Отца{/b}."
     show player 10
     show debbie 59 at Position (xoffset=-28)
-    player_name "Yeah. I'll try."
+    player_name "Да. Я попробую."
     show player 14
     show debbie 61 at Position (xoffset=-28)
-    player_name "Thanks, {b}[deb_name]{/b}."
+    player_name "Спасибо, {b}[deb_name]{/b}."
     show player 1
     show debbie 2 with dissolve
-    deb "Anything else you need?"
+    deb "Ещё что-то нужно?"
     show debbie 1
     show player 1
     return
@@ -394,53 +394,53 @@ label debbie_dialogue_ask_about_dad:
 label debbie_dialogue_ask_about_money_problems:
     show debbie 1
     show player 10
-    player_name "{b}[deb_name]{/b}, about what you said on the phone..."
+    player_name "{b}[deb_name]{/b}, о том, что ты сказала по телефону..."
     show debbie 13
     show player 11
-    deb "I told you not to worry about that."
-    deb "Everything is going to be fine!"
+    deb "Я сказала тебе не беспокоиться об этом."
+    deb "Все будет хорошо!"
     show debbie 14
     show player 14
-    player_name "Okay, but what if I wanted to help you?"
-    player_name "What if I got a real job?"
+    player_name "Хорошо, но что, если я хочу помочь тебе?"
+    player_name "Что если у меня будет настоящая работа?"
     show player 10
-    player_name "I feel somewhat responsible for all this stress..."
+    player_name "Я чувствую себя несколько ответственным за весь этот стресс..."
     show debbie 52 at Position (xoffset=1)
     show player 11
-    deb "You can help me by staying in school!"
-    deb "Your {b}Father{/b} would roll over in his grave if I let you get a full time job..."
-    deb "He wanted you to finish your education."
+    deb "Ты можешь помочь мне, оставаясь в школе!"
+    deb "Твой {b}Отец{/b} перевернется в могиле, если я позволю тебе пойти на полный рабочий день..."
+    deb "Он хотел, чтобы ты закончил свою учёбу."
     show debbie 51 at Position (xoffset=1)
     show player 10
-    player_name "... But I can work after school and on the weekends?"
+    player_name "... Но я могу работать после школы и по выходным?"
     show debbie 53 at Position (xoffset=-18) with dissolve
     show player 13
-    deb "{b}*Sigh*{/b} You're so stubborn, just like your {b}Father{/b}..."
+    deb "{b}*Вздох*{/b} Ты такой упрямый, как твой {b}Отец{/b}..."
     show debbie 59 at Position (xoffset=-28) with dissolve
-    deb "Hmm..."
+    deb "Хмм..."
     show debbie 63 at Position (xoffset=-28)
-    deb "Why don't you go check the {b}mail box{/b}?"
-    deb "I think I saw some job postings there."
-    deb "Perhaps one of those will peak your interest?"
+    deb "Почему бы тебе не пойти проверить {b}почтовый ящик{/b}?"
+    deb "Кажется, я видела там объявления о работе.."
+    deb "Возможно, одно из объявлений заитересует тебя?"
     show debbie 61 at Position (xoffset=-28)
     show player 18
-    player_name "Alright, I'll take a look."
+    player_name "Хорошо, я посмотрю."
     show debbie 62 at Position (xoffset=-28)
     show player 1
-    deb "Anything else you wanted to talk about, sweetie?"
+    deb "Это всё, о чем ты хотел поговорить со мной, дорогой?"
     show debbie 1 with dissolve
     return
 
 label debbie_dialogue_ask_about_men_in_suits:
     show player 10
-    player_name "{b}[deb_name]{/b}, I wanted to talk about what that guy in the suit said..."
+    player_name "{b}[deb_name]{/b}, Я хотел бы поговорить о тех парнях в костюме..."
     show debbie 59 at Position (xoffset=-28) with dissolve
-    player_name "Was my {b}Dad{/b} involved with them?"
+    player_name "Был ли мой {b}папа{/b} связан с ними?"
     show player 11
     show debbie 53 at Position (xoffset=-18) with dissolve
-    deb "{b}*Sigh({/b} I suppose, I can't keep you in the dark forever..."
-    deb "Your {b}Father{/b} was a good man, {b}[firstname]{/b}."
-    deb "... But he had a weakness for gambling."
+    deb "{b}*Вздох({/b} Наверное, я не смогу вечно держать это в секрете..."
+    deb "Твой {b}Отец{/b} был хорошим человеком, {b}[firstname]{/b}."
+    deb "... Но у него была слабость к азартным играм."
     deb "He always told me it was nothing to concern myself over and that he had it all in hand."
     deb "... But now he's gone and it seems there's a lot he didn't share with me."
     show debbie 60 at Position (xoffset=-28) with dissolve
