@@ -3,91 +3,91 @@ label ronda_dialogue_intro:
     show ronda 2 at right
     show player 36 at left
     with dissolve
-    player_name "Hey, {b}Ronda{/b}. How are you?"
+    player_name "Эй, {b}Ронда{/b}. Как поживаешь?"
     show player 13 with dissolve
     show ronda 3
-    ron "I'm doing fine. The question is have you been training?"
+    ron "У меня все хорошо получается. Вопрос, ты тренировался?"
     show ronda 2
     show player 11
     player_name "..."
     show player 10
-    player_name "No-"
+    player_name "Нет-"
     show player 11
     show ronda 4
-    ron "Then stop moving those lips and start moving those... legs!"
+    ron "Тогда перестань шевелить губами и начинай шевелить ими... ногами!"
     show ronda 2
     show player 34
     player_name "???"
     show ronda 3
-    ron "Nevermind. It's just something my dad always says..."
+    ron "Неважно. Это просто то, что мой папа всегда говорит..."
     show player 5
-    ron "Anyway, you better hurry up cause the trials are coming up fast!"
+    ron "Во всяком случае, вам лучше поторопиться, потому что испытания идут быстро!"
     show ronda 2
     return
 
 label ronda_dialogue_talent_show_help:
     show player 10
-    player_name "I don't suppose you'd be interested in volunteering for {b}Ms. Dewitt's{/b} musical talent show?"
+    player_name "Я не думаю, что ты была бы заинтересована в волонтерстве для музыкального шоу талантов {b}Мисс Девитт{/b}?"
     show player 5
     show ronda 3
-    ron "Musical Talent? No, I would not be interested."
+    ron "Музыкальный Талант? Нет, мне было бы неинтересно."
     show ronda 2
     show player 10
-    player_name "Are you sure? You don't play any instruments or sing at all?"
+    player_name "- Ты уверена? Ты вообще не играешь на инструментах и не поешь?"
     show player 5
     show ronda 3
-    ron "Umm, can't you see I have more important things to focus on. Like track and swimming..."
-    ron "Stuff you should be focusing on as well!"
-    ron "You're never gonna make the team if you keep ignoring your training!"
+    ron "Разве ты не видишь, что у меня есть более важные вещи, на которых нужно сосредоточиться. Как трек и плавание..."
+    ron "Вещи, на которых ты должен сосредоточиться!"
+    ron "Ты никогда не попадешь в команду, если будешь игнорировать свои тренировки!"
     show ronda 2
     show player 30
-    player_name "You know, there's more to life than sports, {b}Ronda{/b}..."
+    player_name "Знаешь, в жизни есть нечто большее, чем спорт, {b}Ронда{/b}..."
     show player 5
     show ronda 3
-    ron "Pfft, yeah right."
+    ron "Пффф, да, конечно."
     return
 
 label ronda_dialogue_model_help:
     show player 2 at left
     show ronda 2 at right
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b}, и для него требуется живая модель."
+    player_name "Тебе это будет интересно?"
     show player 1
     show ronda 3
-    ron "Busy."
+    ron "Занята."
     show player 10
     show ronda 2
-    player_name "Busy?"
-    player_name "Doing what?"
+    player_name "Занята?"
+    player_name "Всм?"
     show player 11
     show ronda 4
-    ron "For real, {b}[firstname]{/b}?!"
-    ron "I've gotta run 6 miles and hit an ice bath before soccer practice."
+    ron "Серьёзно, {b}[firstname]{/b}?!"
+    ron "Я должена бежать 6 миль и должна принять ледяную баню до тренировки."
     show player 10
     show ronda 1
-    player_name "Uhh..."
+    player_name "Ухх..."
     show player 11
     show ronda 4
-    ron "Afterwards, I've only got 40 minutes to get some laps in before the pool closes."
+    ron "После этого у меня есть только 40 минут, чтобы сделать несколько кругов до закрытия бассейна."
     show player 10
     show ronda 1
-    player_name "That's cra-"
+    player_name "Это..."
     show player 11
     show ronda 4
-    ron "Then it's back home to a heating pad and crunches."
+    ron "Затем я возвращаюсь домой к тёплой подушке и хрущу."
     show player 12
     show ronda 1
-    player_name "OKAY! Okay! I got it..."
+    player_name "Окей! Окей! Я понял..."
     hide ronda
     hide player
     show player 12
     with dissolve
-    player_name "That girl is insane!"
+    player_name "Эта девчонка ненормальная!"
     return
 
 label ronda_dialogue_leave:
     show player 10
-    player_name "Alright."
-    player_name "See you later."
+    player_name "Хорошо."
+    player_name "Увидимся."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
