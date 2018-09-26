@@ -2,37 +2,37 @@ label sploosh_button_dialogue:
     scene expression game.timer.image("backgrounds/location_pier_boxes{}.jpg")
     show player 10 at left with dissolve
     show sploosh 1 at right
-    player_name "Hello?"
+    player_name "Привет?"
     Sploosh "ZZZzzzz..."
     show player 4
-    player_name "(Hmm... He must be sleeping)"
+    player_name "(Хм... Он должно быть спит)"
     menu:
-        "Wake up Admiral Sploosh":
+        "Проснуться Адмирал Сплушш":
             show player 10
-            player_name "Erm... Excuse me?"
+            player_name "Э... Простите?"
             show sploosh 2
             show player 11
             python:
                 if store.sploosh["amount"] != 0:
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
+
+
+
+
+
+
+
+
+
+
+
                     dialogues = store.sploosh["dialogues"][random.randint(0, store.sploosh["amount"]-1)]
                     for dialogue in dialogues:
                         d = re.sub("\\\\n", "\\n", dialogue)
                         Sploosh(d)
                 else:
                     renpy.show("player 23")
-                    Sploosh("I'm the king of the world!!!")
+                    Sploosh("Я-король всего мира!!!")
             show player 23
             player_name "!!!" with hpunch
             show sploosh 1
@@ -40,8 +40,8 @@ label sploosh_button_dialogue:
             show player 1
             player_name "What a strange pirate..."
             hide player with dissolve
-        "Leave":
-            player_name "I'd better not disturb him..."
+        "Уйти":
+            player_name "Я лучше не буду его беспокоить..."
             Sploosh "ZZZzzzz..."
     $ game.main()
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

@@ -9,35 +9,35 @@ label tony_dialogue_pre:
     return
 
 label tony_dialogue_deliver_pizzas_first:
-    tony "Hey, kid!"
-    tony "Ready to work?"
+    tony "Эй, малыш!"
+    tony "Готов работать?"
     show tony 1
     show player 14f
-    player_name "Sure!"
+    player_name "Конечно!"
     show tony 2
     show player 1f
-    tony "Good! Before we start, make sure you got a {b}bicycle{/b} or something - anything - to get you around faster."
-    tony "Then grab those boxes on the counter, and deliver them to the right addresses!"
-    tony "Oh! Our customers love their pizzas nice and hot."
-    tony "So the faster you work, the more I'll pay ya!"
+    tony "Хорошо! Прежде чем мы начнем, убедитесь, что у вас есть велосипед или что - то еще, чтобы вы быстрее передвигались."
+    tony "Затем возьмите эти коробки на прилавке, и доставить их по правильным адресам!"
+    tony "О! Наши клиенты любят пиццу красивой и горячей."
+    tony "Так что чем быстрее ты работаешь, тем больше я тебе плачу!"
     show tony 1
     show player 14f
-    player_name "Sounds good, {b}Tony{/b}!"
+    player_name "Звучит отлично, {b}Тони{/b}!"
     return
 
 label tony_dialogue_deliver_pizzas_repeat:
-    tony "The boxes are right there, kid!"
+    tony "Коробки прямо здесь, малыш!"
     return
 
 label tony_dialogue_default:
     show tony 1f at right
     show player 10 at left
-    tony "You need to get a bike to deliver pizzas, kiddo!"
+    tony "Тебе нужен велосипед для доставки пиццы, малыш!"
     show player 4
-    player_name "( I bet I could buy a bike at {b}Consum'r{/b}... )"
+    player_name "( Бьюсь об заклад, я мог бы купить велосипед в {b}Консумере{/b}... )"
     show player 2
-    player_name "Thanks, Tony. I'll get a bike and come back!"
+    player_name "Спасибо, Тони. Я возьму велосипед и вернусь!"
     show tony 2f
-    tony "You do, you kid!"
+    tony "Ты сделаешь это, малыш!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

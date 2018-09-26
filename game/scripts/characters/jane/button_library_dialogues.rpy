@@ -3,17 +3,17 @@ label jane_library_dialogue_bissette_find_dictionary:
     show xtra 42
     show player 10f at right
     with dissolve
-    player_name "I can't seem to find a {b}French dictionary{/b}."
+    player_name "Я не могу найти словарь {b}французского языка{/b}."
     show player 5f
     show jane 2f
-    jan "Hmm, let me see..."
+    jan "Хм, дай посмотреть..."
     show jane 1b
     pause
     show jane 2b
-    jan "It should be over on there on shelf, next to the back room."
+    jan "Он должен быть там, на полке, рядом с задней комнатой."
     show jane 1f
     show player 14f
-    player_name "Alright, I'll take a look. Thanks."
+    player_name "Хорошо, я сейчас посмотрю. Спасибо."
     return
 
 label jane_library_dialogue_bissette_get_dictionary:
@@ -21,37 +21,37 @@ label jane_library_dialogue_bissette_get_dictionary:
     show xtra 42
     show player 504f at right
     with dissolve
-    player_name "Well, I found part of a French dictionary."
+    player_name "Ну, я нашел часть французского словаря."
     show player 503f
     show jane 4f
-    jan "What?"
+    jan "Что?"
     show player 5f
     show jane 17bf
     with dissolve
-    jan "Oh no!"
-    jan "I'll have to order a new one but it'll take awhile to arrive."
-    jan "Did you still want to check it out?"
+    jan "О нет!"
+    jan "Мне придется заказать новый, но это займет некоторое время."
+    jan "Ты все еще хочешь проверить?"
     show jane 18bf
     show player 10f
-    player_name "Yeah, I'm pretty desperate. I'll just have to hope I don't need those missing pages..."
+    player_name "Да, я в полном отчаянии. Я просто надеюсь, что мне не нужны эти недостающие страницы..."
     show player 5f
     show jane 17bf
-    jan "Okay, well, sorry again!"
+    jan "Ладно, что ж, простите еще раз!"
     show jane 18f
-    jan "You can just keep it. It won't be much use around here..."
+    jan "Ты можешь просто оставить его себе. Я не буду использовать здесь..."
     show jane 1f with dissolve
     show player 504f with dissolve
-    player_name "Thanks!"
+    player_name "Спасибо!"
     show player 503f
     show jane 3f
-    jan "No problem, have a nice day!"
+    jan "Нет проблем, хорошего дня!"
     hide player
     hide jane
     with dissolve
 
     scene library
     show player 34 with dissolve
-    player_name "( I guess I should take this to {b}Miss Bissette{/b} and see what she thinks... )"
+    player_name "( Думаю, мне стоит отнести это {b}Мисс Биссетт{/b} и посмотреть, что она думает.... )"
     return
 
 label jane_library_dialogue_bissette_return_overdue_books:
@@ -59,39 +59,39 @@ label jane_library_dialogue_bissette_return_overdue_books:
     show xtra 42
     show player 14f at right
     with dissolve
-    player_name "I found all the overdue books!"
+    player_name "Я нашел все просроченные книги!"
     show player 239_240f with dissolve
     pause
     show player 507f at Position (xoffset=-9) with dissolve
     show jane 2f
-    jan "Really? Let's see..."
+    jan "Правда? Давайте посмотрим..."
     show player 13f
     show jane 22f at Position (xoffset=-18) with dissolve
-    jan "You did it! Thanks a lot!"
-    jan "I've got something for you too."
+    jan "У тебя получилось! Большое спасибо!"
+    jan "У меня тоже есть кое-что для тебя."
     show jane 21f at Position (xoffset=-18)
     show player 10f
-    player_name "You do?"
+    player_name "Что именно?"
     show jane 20f with dissolve
-    jan "Yup, that book you ordered came in."
+    jan "Да, пришла книга, которую ты заказал."
     show jane 19f with dissolve
     pause
     show player 521f
     show jane 1f
     with dissolve
-    player_name "Thanks!"
-    player_name "{b}101 Types of Cheese{/b}..."
+    player_name "Спасибо!"
+    player_name "{b}101 вид сыра{/b}..."
     show player 5f with dissolve
     show jane 2f
-    jan "Will that work?"
+    jan "Это сработает?"
     show jane 1f
     show player 10f
-    player_name "Err, I'll have to make do."
+    player_name "Мне придется обойтись без этого."
     show player 14f
-    player_name "Thanks again!"
+    player_name "Спасибо снова!"
     show player 13f
     show jane 3f
-    jan "Come back and see us!"
+    jan "Возвращайтесь поскорей!"
     return
 
 label jane_library_dialogue_pre:
@@ -99,145 +99,145 @@ label jane_library_dialogue_pre:
     show xtra 42
     show player 1f at right
     with dissolve
-    jan "Hi! How can I help you?"
+    jan "Привет! Чем я могу вам помочь?"
     show player 2f
     show jane 1f
-    player_name "Hi, I'm looking for a {b}book{/b}."
+    player_name "Привет, я ищу {b}книгу{/b}."
     show player 1f
     show jane 2f
-    jan "Sure thing! Do you know the book's name?"
+    jan "Конечно же! Ты знаешь Название книги?"
     show jane 1f
     return
 
 label jane_library_dialogue_milk_production_books:
     show player 14f
-    player_name "This may sound weird, but do you have anything in the library about increasing milk production?"
+    player_name "Это может показаться странным, но у вас есть что-нибудь в библиотеке об увеличении производства молока?"
     show player 13f
     pause
     show jane 4f
-    jan "Um... Why? I don't think you'll ever be able to breastfeed."
+    jan "Эм... Зачем? Не думаю, что ты когда-нибудь сможешь кормить грудью."
     show jane 2f
-    jan "Oh! Whoops! You probably meant for farming, right?"
+    jan "О! Упс! Ты, наверное, имеешь в виду фермерство, да?"
     show jane 1f
     show player 10f
-    player_name "Ummm... Actually, I'm interested in learning about either topic, I guess..."
+    player_name "Мммм... На самом деле, я заинтересован в изучении любой темы, я думаю..."
     show player 13f
     show jane 4f
-    jan "Check the bookshelf over there. We should have something."
+    jan "Проверь Книжную Полку вон там. У нас должно быть что-то."
     show jane 1f
     show player 14f
-    player_name "Thank you!"
+    player_name "Спасибо вам!"
     show player 13f
     show jane 2f
-    jan "You're welcome!"
+    jan "Всегда пожалуйста!"
     return
 
 label jane_library_dialogue_french_poetry:
     show player 10f
-    player_name "Do you have any French Poetry?"
+    player_name "У вас есть французская поэзия?"
     show player 5f
     show jane 1b
-    jan "Hmm..."
+    jan "Хмм..."
     show jane 2f
-    jan "Actually..."
-    jan "Some girls were here reading something like that {b}yesterday afternoon{/b}."
+    jan "Фактически..."
+    jan "Некоторые девушки читали что-то подобное {b}вчера днем{/b}."
     show jane 1f
     show player 10f
-    player_name "Really?"
+    player_name "Серьёзно?"
     show player 12f
-    player_name "Did they check it out?"
+    player_name "Они что-нибудь проверили?"
     show player 5f
     show jane 2f
-    jan "No."
+    jan "Нет."
     show jane 1f
     show player 10f
-    player_name "Do you know where it is?"
+    player_name "Вы знаете, где она находится?"
     show player 5f
     show jane 5f
     jan "..."
     show jane 4f
-    jan "No..."
-    jan "But, maybe they'll be here again this {b}afternoon{/b}."
-    jan "You could ask one of them where they put it."
+    jan "Нет..."
+    jan "Но, может быть, они будут здесь снова в {b}этот день{/b}."
+    jan "Вы можете спросить одного из них, куда они его положили."
     show jane 1f
     show player 12f
-    player_name "Thanks."
+    player_name "Спасибо."
     return
 
 label jane_library_dialogue_french_food_find_books:
     show player 10f
-    player_name "I was wondering if you had any books in French about food?"
+    player_name "Мне было интересно, есть ли у вас книги о французской еде?"
     show player 13f
     show jane 3f
-    jan "That's an interesting subject..."
+    jan "Это интересная тема..."
     show jane 1f
     show player 14f
-    player_name "Yeah, I need it for a school assignment."
+    player_name "Да, мне это нужно для школьного задания."
     show player 13f
     show jane 2f
-    jan "Alright, let me look and see what we have."
+    jan "Хорошо, Дай мне посмотреть, что у нас есть."
     show jane 1b
     jan "..."
     show player 11f
     player_name "..."
     show player 5f
     show jane 2b
-    jan "Hmm, we don't appear to have anything like that."
+    jan "Хм, у нас нет ничего подобного."
     show jane 1f
     show player 12f
-    player_name "Nothing?"
+    player_name "Прям ничего?"
     show player 5f
     show jane 2b
-    jan "No... Oh, wait a second!"
-    jan "It's saying our sister branch has a French book about cheese."
+    jan "Нет... Ой, подожди секунду!"
+    jan "Это говорит о том, что у нашей сестры бранч есть французская книга о сыре."
     show jane 2f
-    jan "Would that work?"
+    jan "Это сработает?"
     show jane 1f
     show player 14f
-    player_name "Sure, I love cheese! Where do I need to pick it up?"
+    player_name "Конечно, мне нравится сыр! Где мне нужно его забрать?"
     show player 13f
     show jane 2f
-    jan "I can request them to send it here. Should only take a few days..."
-    jan "In the meantime, I wonder if you could you help me out with something?"
+    jan "Я могу попросить их прислать его сюда. Это займет всего несколько дней..."
+    jan "А пока, не могли бы вы мне чем-нибудь помочь?"
     show jane 1f
     show player 10f
-    player_name "... Sure, I suppose. What is it you need?"
+    player_name "... Конечно, я полагаю. Что именно вам необходимо?"
     show player 5f
     show jane 2f
-    jan "{b}Some of your classmates have overdue books{/b} I'd like returned."
-    jan "I've been sending letters to their homes but that doesn't seem to be working."
-    jan "I'd hate to lose the books."
+    jan "{b}Некоторые из ваших одноклассников просрочили книги{/b}, которые я хотела бы вернуть."
+    jan "Я отправляла письма к ним домой, но, похоже, это не работает."
+    jan "Мне бы не хотелось потерять книги."
     show jane 1f
     show player 10f
-    player_name "Yeah, I could try {b}speaking with them{/b}. What are their names?"
+    player_name "Да, я могу попробовать {b}поговорить с ними{/b}. Как их имена?"
     show player 5f
     show jane 2b
-    jan "Hmm, the first is a {b}Miss Martinez{/b}."
-    jan "The second is a {b}Mr. Erik J-{/b}."
+    jan "Во-первых, это {b}Мисс Мартинез{/b}."
+    jan "Второй {b}Мр. Эрик{/b}."
     show jane 1f
     show player 14f
-    player_name "{b}Erik{/b} has a book out?!"
-    player_name "Those should be easy."
+    player_name "{b}У Эрика{/b} вышла книга?!"
+    player_name "Это должно быть просто."
     show player 13f
     show jane 2b
-    jan "...And finally..."
-    jan "Huh. It just says {b}Dexter{/b}."
-    jan "Ring any bells?"
+    jan "...И напоследок..."
+    jan "Да. Там просто написано {b}Декстер{/b}."
+    jan "Никого не припоминаешь?"
     show jane 1f
     show player 12f
-    player_name "Oh man, not {b}Dexter{/b}... You're sure?"
+    player_name "О боже, только не {b}Декстер{/b}... Вы уверены?"
     show player 11f
     show jane 2f
-    jan "That's what the log says..."
+    jan "Так написано в журнале..."
     show jane 1f
     show player 12f
-    player_name "Crap! Alright, I'll see what I can do."
+    player_name "Дерьмо! Хорошо, я посмотрю, что можно сделать."
     show player 5f
     show jane 3f
-    jan "Thanks, I really appreciate this!"
+    jan "Спасибо, я действительно ценю это!"
     hide jane with dissolve
     show player 12 at center with dissolve
-    player_name "Ugh, why did it have to be {b}Dexter{/b}?"
+    player_name "Почему это должен был быть {b}Декстер{/b}?"
     return
 
 label jane_library_dialogue_french_food_book_holders:
