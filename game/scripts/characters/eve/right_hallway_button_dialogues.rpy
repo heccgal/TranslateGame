@@ -7,245 +7,245 @@ label button_eve_intro:
 
 label button_eve_talent_show_help:
     show player 10
-    player_name "Do you play any instruments?"
+    player_name "Ты играешь на каких-нибудь инструментах?"
     show player 5
     show eve 2
-    eve "No, I don't play any instruments. I've always wanted to learn but I just haven't had the time, you know?"
+    eve "Нет, я не играю. Я всегда хотела научиться, но у меня просто не было времени, понимаешь?"
     show eve 1
     show player 10
-    player_name "Okay, well how about singing?"
+    player_name "Хорошо, а как насчет пения?"
     show player 5
     show eve 6
-    eve "Oh, umm..."
+    eve "Ох, эмм..."
     show eve 2b
-    eve "Yeah, I like to sing I guess. I dunno if I'm any good though."
+    eve "Да, мне нравится петь, наверное. Не знаю, насколько я хороша."
     show eve 1
     show player 14
-    player_name "I bet you are! You should sign up for the talent show with me!"
-    player_name "We're really hurting for more volunteers."
+    player_name "Бьюсь об заклад! Ты должна подписаться на шоу талантов со мной!"
+    player_name "Нам действительно не хватает добровольцев."
     show player 13
     show eve 2b
-    eve "... Yeah, I dunno."
-    eve "You want me to sing in front of the entire school? That sounds pretty embarassing."
-    eve "... And I haven't sang in awhile. Not since my karaoke machine broke."
-    eve "I'm quite out of practice."
+    eve "... Да, я не знаю."
+    eve "Ты хочешь, чтобы я пела перед всей школой? Звучит довольно неловко."
+    eve "... И я не пела некоторое время. С тех пор, как сломалась моя караоке-машина."
+    eve "У меня совсем нет практики."
     show eve 1
     show player 4 with dissolve
-    player_name "Hmm..."
+    player_name "Хмм..."
     show player 14 with dissolve
-    player_name "You know, I think my friend {b}Erik{/b} has a {b}karaoke machine{/b} in his basement."
+    player_name "Ты знаешь, я думаю, что мой друг {б}Эрик{/В} имеет {б}караоке{/B} в своем подвале."
     show player 13
     show eve 2
-    eve "Oh, yeah?"
+    eve "О, правда?"
     show eve 1
     show player 17
-    player_name "Totally! You should come over sometime and practice!"
+    player_name "Точно! Приходи как-нибудь и потренируйся!"
     show player 13
     show eve 6
-    eve "Heh, you want me to sing for you and your friend?"
+    eve "Ты хочешь, чтобы я спела для тебя и твоего друга?"
     show eve 5
     show player 14
-    player_name "Nah, we can all sing together! C'mon, we'll do it tonight, it'll be fun!"
+    player_name "Нет, мы можем петь все вместе! Давай, сделаем это сегодня вечером, будет весело!"
     show player 13
     show eve 1
     eve "..."
     show eve 6b
-    eve "Alright, I guess I can stop by for a little while."
+    eve "Ладно, думаю, я могу заехать ненадолго."
     show eve 5
     show player 14
-    player_name "Awesome! {b}I'll meet you at Erik's house{/b} tonight."
+    player_name "Потрясающе! {b}Я буду ждать тебя в доме Эрика {/b} сегодня вечером."
     return
 
 label button_eve_ross_find_art_pad:
     show player 2
-    player_name "I need to ask you for a favor."
+    player_name "Мне нужно попросить тебя об одолжении."
     show player 1
     show eve 2
-    eve "Oh?"
+    eve "Ох?"
     show player 2
     show eve 1
-    player_name "You see, I'm kinda helping {b}Miss Ross{/b} with something and we need your art pad."
+    player_name "Видишь ли, я вроде как помогаю {b}Мисс Росс{/b} кое с чем, и нам нужен твой блокнот."
     show player 1
     show eve 2
-    eve "Well that's no problem."
-    eve "You just have to {b}help me find my backpack{/b} first."
+    eve "Ну, это не проблема."
+    eve "Сначала ты должен помочь мне найти {b}мой рюкзак{/b}."
     show player 10
     show eve 1
-    player_name "You lost your backpack?"
+    player_name "Ты потеряла свой рюкзак?"
     show player 11
     show eve 2
-    eve "Yeah..."
-    eve "My art pad should be inside it."
+    eve "Да..."
+    eve "Мой блокнот должен быть внутри."
     show player 10
     show eve 1
-    player_name "Where was the last place you remember having it?"
+    player_name "Где было последнее место, где ты его помнишь?"
     show player 11
     show eve 2
-    eve "Hmm, well I think {b}I had it when I went to hang out with the guys in the park last night{/b}."
+    eve "Хм, Ну, я думаю, что {b}у меня он было, когда я пошла тусоваться с парнями в парке прошлой ночью{/b}."
     show player 2
     show eve 1
-    player_name "Alright, I'm on it!"
+    player_name "Хорошо, я займусь этим делом!"
     return
 
 label button_eve_ross_find_eve_backpack_have_backpack:
     show player 610
-    player_name "Look what I found!"
+    player_name "Посмотрите, что я нашел!"
     show player 609
     show eve 2
-    eve "Niiiice!"
+    eve "Класс!"
     show player 1 with dissolve
-    eve "Thanks, {b}[firstname]{/b}!"
+    eve "Спасибо, {b}[firstname]{/b}!"
     show player 2
     show eve 1
-    player_name "No worries. I couldn't find your {b}Art Pad{/b} though."
+    player_name "Не беспокоиться. Я не смог найти {b}твой блокнот{/b} для рисования."
     show player 1
     show eve 2
-    eve "It wasn't in my bag?"
+    eve "Его не было в моей сумке?"
     show player 2
     show eve 1
-    player_name "Nope."
+    player_name "Нет."
     show player 1
     show eve 2
-    eve "Weird."
+    eve "Таинственность."
     show eve 6b
-    eve "I wonder if {b}Chad{/b} snatched it again?"
+    eve "Интересно, что если {b}Чад{/b} опять утащил?"
     show player 10
     show eve 1
-    player_name "Chad?"
+    player_name "Чад?"
     show player 11
     show eve 2
-    eve "Yeah, he digs my art."
+    eve "Да, ему нравится мое искусство."
     show player 10
     show eve 1
-    player_name "Interesting..."
+    player_name "Интересно..."
     show player 2
-    player_name "I'll go ask him."
+    player_name "Пойду, спрошу у него."
     show player 1
     show eve 2
-    eve "Cool. See ya, {b}[firstname]{/b}."
+    eve "Класс. Увидимся, {b}[firstname]{/b}."
     show player 2
     show eve 1
-    player_name "See ya, {b}Eve{/b}."
+    player_name "Увидимся, {b}Ева{/b}."
     return
 
 label button_eve_ross_find_eve_backpack_no_backpack:
     show player 2
-    player_name "Where did you leave your backpack, again?"
+    player_name "Еще раз, Где ты оставила свой рюкзак?"
     show player 1
     show eve 2
-    eve "I'm not entirely sure. I remember having it with me {b}at the park{/b} lastnight."
+    eve "Я не совсем уверена. Я помню, как он был со мной в {b}парке прошлой ночью{/b}."
     show player 2
     show eve 1
-    player_name "Okay, I'll check there!"
+    player_name "Хорошо, я там все проверю!"
     return
 
 label button_eve_ross_get_eve_drawing:
     show player 10
-    player_name "Where did you say that {b}Art Pad{/b} was again?"
+    player_name "Где, ты говоришь, был {b}Скетч бук{/b}?"
     show player 11
     show eve 6b
-    eve "Oh, {b}Chad probably has it{/b}."
+    eve "О, у {b}Чада{/b}, наверное, он есть."
     show eve 2
-    eve "He digs my art."
+    eve "Ему нравится мое искусство."
     show player 2
     show eve 1
-    player_name "Gotcha, thanks!"
+    player_name "Хорошо, спасибо!"
     return
 
 label button_eve_ask_model:
     show player 2
     show eve 1
-    player_name "I'm working on a project for {b}Miss Ross{/b} and it requires a live model."
-    player_name "Would you be interested?"
+    player_name "Я работаю над проектом для {b}Мисс Росс{/b}, и для него нужна живая модель."
+    player_name "Тебе это будет интересно?"
     show player 1
     show eve 2
-    eve "Modeling? That could be fun."
+    eve "{b}Моделью{/b}? Это может быть весело."
     show player 2
     show eve 1
-    player_name "Really!? Awesome! I was hoping you would say that!"
+    player_name "Правда!? Потрясающе! Я надеялся, что ты это скажешь!"
     show player 1
     show eve 2
-    eve "Yeah, I don't mind. It's a good thing I wore this cute outfit today."
+    eve "Да, я не возражаю. Хорошо, что я сегодня надела этот милый наряд."
     show player 10
     show eve 1
-    player_name "... Oh, umm. It would be nude modeling."
+    player_name "... Ох, Ммм. Это будет обнаженная модель."
     show player 11
     show eve 2b
-    eve "Nude?!"
+    eve "Голой?!"
     show eve 6
-    eve "Oh, hell no!"
+    eve "О, черт возьми, нет!"
     show player 10
     show eve 5
-    player_name "So you won't do it? I thought you were into artsy stuff?"
+    player_name "Так ты не будешь этого делать? Я думал, ты увлекаешься искусством?"
     show player 11
     show eve 6
-    eve "Yeah, but that doesn't mean I'm into public nudity!"
+    eve "Да, но это не значит, что мне нравится публичная нагота!"
     show player 10
     show eve 5
-    player_name "Good point. Sorry."
+    player_name "Хорошо подметила. Прости."
     show player 11
     show eve 2
-    eve "It's alright. Just not interested."
+    eve "Все в порядке. Просто не интересно."
     show player 2
     show eve 1
-    player_name "Well, thanks anyways..."
+    player_name "Ну, спасибо в любом случае..."
     return
 
 label button_eve_ross_get_paint:
     show player 2
     show eve 1
-    player_name "I need some paint. Any idea where I could find some?"
+    player_name "Мне нужно немного краски. Есть идеи, где я могу их найти?"
     show player 1
     show eve 6b
-    eve "I dunno, maybe try a store?"
+    eve "Не знаю, Может сходим в магазин?"
     show player 2
     show eve 1
-    player_name "Well yeah, I know... Duh, right?"
-    player_name "... But the paint is for {b}Miss Ross{/b} and she can't afford to buy it."
+    player_name "Ну да, я знаю..."
+    player_name "... Но краска для {b}Мисс Росс{/b}, и она не может позволить себе купить ее."
     show player 1
     show eve 6
-    eve "Oh, hehe."
+    eve "О, хе-хе."
     show eve 4 with dissolve
-    eve "Hmm, free paint. That's a toughie."
+    eve "Хм, свободная краска. Это круто."
     show eve 3
     show player 2
-    player_name "Tell me about it..."
+    player_name "Расскажи мне об этом..."
     show player 1
     show eve 2 with dissolve
-    eve "We could try asking {b}My Sister{/b}."
+    eve "Мы можем попробовать спросить {b}мою сестру{/b}."
     show player 2
     show eve 5
-    player_name "She's a {b}Tattoo Artist{/b}, right?"
+    player_name "Она {b}татуировщик{/b}, верно?"
     show player 1
     show eve 6
-    eve "She's the best {b}Tattoo Artist{/b}!"
-    eve "You should come check out her work, it's amazing!"
+    eve "Она {b}лучший татуировщик{/b}!"
+    eve "Ты должен прийти и попробовать, это удивительно!"
     show player 2
     show eve 5
-    player_name "You think she would let me have some paint?"
+    player_name "Думаешь, она разрешит мне немного краски?"
     show player 1
     show eve 2
-    eve "We can go ask her."
+    eve "Мы можем пойти и спросить ее."
     show eve 5
     show player 10
-    player_name "Isn't her parlor called {b}Sugar Tats{/b}?"
+    player_name "Разве ее кабинет не называется {b}Сахарные Таты{/b}?"
     show player 11
     show eve 6
-    eve "Yuuuup. It's on the {b}North{/b} side of town."
+    eve "Да. Это на {b}северной стороне{/b} города."
     show player 2
     show eve 5
-    player_name "Alright, I'll meet you there!"
+    player_name "Хорошо, встретимся там!"
     return
 
 label button_eve_ross_get_paint_grace:
     show player 10
     show eve 5
-    player_name "What's the name of your Sister's parlor again?"
+    player_name "Где ты говорила твоя сестра?"
     show player 11
     show eve 2
-    eve "{b}Sugar Tats{/b}. It's on the {b}North{/b} side of town."
+    eve "{b}Сахарные Таты{/b}. Это на северной стороне города."
     show player 2
     show eve 5
-    player_name "Okay, {b}I'll meet you there{/b}!"
+    player_name "Хорошо, {b}встретимся там{/b}!"
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
