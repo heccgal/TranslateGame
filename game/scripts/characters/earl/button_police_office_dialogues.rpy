@@ -142,7 +142,7 @@ label earl_police_office_dialogue_first_visit:
     ear "Подожди минутку... Ты не ходишь в школу с моей дочерью?"
     show earl 3
     show player 14
-    player_name "А, точно! Dы {и}Отец Ронды{/b}!"
+    player_name "А, точно! Ты {b}Отец Ронды{/b}!"
     show earl 2
     show player 1
     ear "Вот дерьмо!"

@@ -33,7 +33,7 @@ label button_eve_talent_show_help:
     show player 4 with dissolve
     player_name "Хмм..."
     show player 14 with dissolve
-    player_name "Ты знаешь, я думаю, что мой друг {б}Эрик{/В} имеет {б}караоке{/B} в своем подвале."
+    player_name "Ты знаешь, я думаю, что мой друг {b}Эрик{/b} имеет {b}караоке{/b} в своем подвале."
     show player 13
     show eve 2
     eve "О, правда?"

@@ -168,7 +168,7 @@ label harold_police_office_dialogue_mia_harolds_thoughts:
     show harold 4
     harold "..."
     show harold 6
-    harold "Я знаю, {b}Миа{/b} пытается получить {b}Хелен{/ b} и меня, снова вместе."
+    harold "Я знаю, {b}Миа{/b} пытается получить {b}Хелен{/b} и меня, снова вместе."
     harold "Ты ей тоже помогаешь. Ты хороший парень."
     show harold 1
     harold "..."

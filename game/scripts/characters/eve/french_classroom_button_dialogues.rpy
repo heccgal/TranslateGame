@@ -76,7 +76,7 @@ label eve_classroom_dialogue_talent_show_help:
     eve "У меня совсем нет практики."
     show evedesk 5
     player_name "Хмм..."
-    player_name "Ты знаешь, я думаю, что мой друг {б}Эрик{/В} имеет {б}караоке{/B} в своем подвале."
+    player_name "Ты знаешь, я думаю, что мой друг {b}Эрик{/b} имеет {b}караоке{/b} в своем подвале."
     show evedesk 4
     eve "О, правда?"
     show evedesk 5
@@ -96,7 +96,7 @@ label eve_classroom_dialogue_adehsive:
     show evedesk 5
     player_name "Какой был план?"
     show evedesk 4
-    eve "Ты должен встретиться с {б}Кевином{/B} в {б}научной лаборатории после занятий{/b}."
+    eve "Ты должен встретиться с {b}Кевином{/b} в {b}научной лаборатории после занятий{/b}."
     eve "Запомнил?"
     show evedesk 5
     player_name "Да, это верно. Спасибо, {b}Ева{/b}!"

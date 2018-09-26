@@ -546,7 +546,7 @@ label debbie_dialogue_help_chores_after:
 
 label debbie_dialogue_help_check_car:
     show player 4
-    player_name "( Я должен пойти проверить {b}автомобиль{/b} как {b} [deb_name] {/ b}. )"
+    player_name "( Я должен пойти проверить {b}автомобиль{/b} для {b}[deb_name]{/b}. )"
     return
 
 label debbie_dialogue_help_fix_car:

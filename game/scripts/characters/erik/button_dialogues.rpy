@@ -222,7 +222,7 @@ label button_erik_ask_beer:
     player_name "Это взятка для друзей {b}Евы{/b}. Они помогут нам убрать граффити со стен зала."
     show player 13
     show erik 5
-    eri "О, для шоу талантов {b}Мисс Девитт{b/}?"
+    eri "О, для шоу талантов {b}Мисс Девитт{/b}?"
     show erik 52
     show player 14
     player_name "Да."
@@ -746,7 +746,7 @@ label button_erik_ask_favor:
     eri "Что это?"
     show erik 1 at right
     show player 14 at left
-    player_name "Ну, ты знаешь, {б}Кевина{/в} ОТ {б}школы{/b}?"
+    player_name "Ну, ты знаешь, {b}Кевина{/b} ОТ {б}школы{/b}?"
     show erik 5 at right
     show player 1 at left
     eri "Вроде..."
