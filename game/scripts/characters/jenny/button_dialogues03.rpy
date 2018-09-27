@@ -1,35 +1,35 @@
 label jenny_dialogue_make_deal_alright_repeat:
     show player 12 at left
     show jenny 82 at Position(xpos=937)
-    player_name "Alright..."
+    player_name "Хорошо..."
     show player 41 at Position(xpos=38) with fastdissolve
     pause
     show player 11 at left
     show jenny 80 at Position(xpos=945)
-    jen "Hold on: I'm counting it first." with fastdissolve
+    jen "Подожди, я пересчитываю сначала." with fastdissolve
     show jenny 14
-    jen "Hmm..."
+    jen "Хмм..."
     $ player.spend_money(500)
     play audio coins2
     show player 1
     show jenny 12 at Position(xpos=937)
-    jen "Fine. It's all here." with fastdissolve
+    jen "Хорошо. Это все здесь." with fastdissolve
     show jenny 10
     show player 21
-    player_name "So... Just like last time?"
+    player_name "Так... Прямо как в прошлый раз?"
     show player 11
     show jenny 7 at right
-    jen "Yeah, NO touching without my permission!"
+    jen "Да, никаких прикосновений без моего разрешения!"
     show player 21
     show jenny 8
-    player_name "Okay..."
+    player_name "Окей..."
     show jenny 161 at Position(xpos = 943) with fastdissolve
     pause
     show jenny 162 with fastdissolve
     pause
     show jenny 91 at right with fastdissolve
     show player 1
-    jen "You can touch it with ONE hand..."
+    jen "Ты можешь коснуться одной рукой..."
     hide player
     show jenny 92
     with fastdissolve
@@ -41,13 +41,13 @@ label jenny_dialogue_make_deal_alright_repeat:
     show jenny 95_94
     pause 8
     show jenny 95
-    jen "Why are you squeezing my nipple like that?"
+    jen "Почему ты так сжимаешь мой сосок?"
     show jenny 94
-    jen "Can't you just touch it normally?"
+    jen "Ты не можешь просто потрогать нормально?"
     show jenny 95
     pause
     show jenny 96
-    jen "Hahh..."
+    jen "Хахх..."
     return
 
 label jenny_dialogue_make_deal_continue:
@@ -58,26 +58,26 @@ label jenny_dialogue_make_deal_continue:
     show jenny 95
     pause
     show jenny 96
-    jen "Hahh..."
+    jen "Хахх..."
     return
 
 label jenny_dialogue_make_deal_suck_stat_fail:
     show jenny 97 at Position(xpos=1008) with fastdissolve
     pause
     show jenny 98
-    jen "[dex_warn]What the FUCK?!" with hpunch
+    jen "[dex_warn]Какого хрена?!" with hpunch
     show jenny 102
     show player 5 at left
     with dissolve
-    jen "[dex_warn]I never said you could {b}SUCK{/b} on them, you idiot!"
+    jen "[dex_warn]Я никогда не говорила, что ты можешь {b}сосать{/b} их, идиот!"
     show jenny 103
     show player 10
-    player_name "I'm sorry!"
-    player_name "I thought it was okay!"
+    player_name "Прости меня!"
+    player_name "Я думал, все в порядке!"
     show jenny 102
     show player 5
-    jen "I told you, just with your HAND!!!"
-    jen "Get out of my room, you pervert!"
+    jen "Я же говорила, только рукой!!!"
+    jen "Убирайся из моей комнаты, извращенец!"
     hide player
     hide jenny
     with dissolve
@@ -85,9 +85,9 @@ label jenny_dialogue_make_deal_suck_stat_fail:
 
 label jenny_dialogue_make_deal_suck_stat_pass:
     show jenny 99 at Position(xpos=1008) with hpunch
-    jen "Ahhh!!"
+    jen "Аххх!!"
     show jenny 100
-    jen "What are you DOING?!"
+    jen "Что ты делаешь?!"
     show jenny 99_100_101
     pause 8
     show jenny 101
@@ -101,20 +101,20 @@ label jenny_dialogue_make_deal_suck_continue:
 
 label jenny_dialogue_make_deal_suck_stop:
     show jenny 98 at Position(xpos=1008)
-    jen "What the FUCK?!" with hpunch
+    jen "Какого хрена?!" with hpunch
     show jenny 102
     show player 5 at left
     with dissolve
-    jen "I never said you could SUCK on them! You idiot!!"
+    jen "Я никогда не говорила, что ты можешь сосать их! Идиот!!"
     show player 10
     show jenny 103
-    player_name "I'm sorry!"
-    player_name "I thought you liked it!"
+    player_name "Прости меня!"
+    player_name "Я думал, тебе понравилось!"
     show jenny 102
     show player 5
-    jen "I- I didn't, Okay?! I was just pretending!!"
-    jen "I let you go WAY too far this time..."
-    jen "Get out of my room, you pervert!"
+    jen "Я... Я этого не делал, понятно?! Я просто притворялась!!"
+    jen "На этот раз я позволила тебе зайти слишком далеко..."
+    jen "Убирайся из моей комнаты, извращенец!"
     hide player
     hide jenny
     with dissolve
@@ -124,20 +124,20 @@ label jenny_dialogue_make_deal_stop:
     show jenny 91 at right
     show player 1 at left
     with fastdissolve
-    jen "Satisfied?"
+    jen "Довольный?"
     show jenny 89
     show player 21
-    player_name "Yeah... Thanks."
+    player_name "Да... Спасибо."
     show player 1
     show jenny 90
-    jen "No... Thank YOU, {b}[firstname]{/b}!"
-    jen "Come back any time. If you want more... You know the deal."
+    jen "Нет... Спасибо тебе, {b}[firstname]{/b}!"
+    jen "Возвращайся в любое время. Если ты хочешь большего... Ты знаешь условия сделки."
     show player 21
     show jenny 89
-    player_name "Okay."
+    player_name "Окей."
     show player 11
     show jenny 91
-    jen "Now get out of my room, you pervert!"
+    jen "А теперь убирайся из моей комнаты, извращенец!"
     hide player
     hide jenny
     with dissolve
@@ -146,11 +146,11 @@ label jenny_dialogue_make_deal_stop:
 label jenny_dialogue_make_deal_not_yet:
     show player 12
     show jenny 10
-    player_name "Actually, never mind."
-    player_name "I need to think it over some more."
+    player_name "Вообще-то, ничего страшного."
+    player_name "Мне нужно ещё подумать над этим."
     show player 11
     show jenny 7 at right
-    jen "Get out of my room then, you pervert!"
+    jen "Тогда убирайся из моей комнаты, извращенец!"
     hide player
     hide jenny
     with dissolve
@@ -159,17 +159,17 @@ label jenny_dialogue_make_deal_not_yet:
 label jenny_dialogue_make_deal_not_enough:
     show player 10
     show jenny 10 at Position(xpos=937)
-    player_name "I don't have that much money right now..."
+    player_name "У меня сейчас не так много денег..."
     show player 11
     show jenny 9
-    jen "You're broke?! That's just sad..."
+    jen "Ты на мели?! Это просто печально..."
     show player 14
     show jenny 10
-    player_name "I should have more soon, though."
+    player_name "Но скоро должно быть больше."
     show player 5
     show jenny 9
-    jen "Ugh... Come back to me when you have the money then."
-    jen "Get out of my room, you pervert!"
+    jen "Тьфу... Возвращайся, когда будут деньги."
+    jen "Убирайся из моей комнаты, извращенец!"
     hide player
     hide jenny
     with dissolve
@@ -178,20 +178,20 @@ label jenny_dialogue_make_deal_not_enough:
 label jenny_dialogue_cam_show_pre:
     show player 2
     show jenny 11 at Position(xpos=937)
-    player_name "Do you need me... for another {b}cam show{/b}?"
+    player_name "Нужен ли я тебе... для {b}показа{/b}?"
     show player 1
     show jenny 12
-    jen "Someone is feeling {b}horny{/b}."
-    jen "You want to feel my wet pussy wrapped around your cock, huh?"
+    jen "Кто-то чувствует себя {b}возбужденным{/b}."
+    jen "Хочешь почувствовать, как моя мокрая киска обвивается вокруг твоего члена?"
     show player 13
     show jenny 11
     player_name "..."
     show player 21
-    player_name "Well, if you need my help, I guess..."
+    player_name "Ну, если тебе нужна моя помощь, я думаю..."
     show player 1
     show jenny 19 at right
-    jen "Alright, wait right there, you little pervert."
-    jen "Let me get my {b}props{/b}, and then I'll explain what to do."
+    jen "Ладно, подожди здесь, маленький извращенец."
+    jen "Позвольте мне взять мой {b}реквизит{/b}, а потом я объясню, что делать."
     scene black with fade
     return
 
@@ -201,37 +201,37 @@ label jenny_dialogue_cam_show_pre_inside:
     show player 1 at left
     show jenny_cheer2 zorder 2 at Position(xpos=797,ypos=757)
     with fade
-    jen "Ugh... this thing is so tight!"
+    jen "Тьфу... эта штука такая тугая!"
     show player 21
     show jenny 167
-    player_name "I think it looks good..."
+    player_name "Я думаю, что это выглядит хорошо..."
     show player 11
     show jenny 166
-    jen "Stop with your cheap flattery."
+    jen "Прекрати свою дешевую лесть."
     show jenny 167
     player_name "..."
     show jenny 109
-    jen "So... you know how I told you that cumming inside was a bad thing?"
-    jen "It turns out, my fans LOVE {b}creampies{/b}. I got an absolute TON of new subscribers because of it."
+    jen "Так... знаешь, как я сказал тебе, что кончать внутрь-плохо?"
+    jen "Получается, что мои поклонники любят {б}кончание во внутрь{/в}. Я получил абсолютную тонну новых подписчиков из-за этого."
     show jenny 108
     show player 21
-    player_name "Wait... What?"
+    player_name "Подожди... Что?"
     show player 1
     show jenny 166
-    jen "What I'm saying is you can keep doing it, you moron! I don't mind!"
+    jen "Я хочу сказать, что ты можешь продолжать делать это, идиот! Я не возражаю!"
     show player 21
     show jenny 167
-    player_name "Ohh..."
+    player_name "Охх..."
     show jenny 166
     show player 11
-    jen "Now, just sit on my bed, and don't say anything while I set up the cam show..."
-    jen "Just sit back, keep that cock of yours nice and hard, and let me know when you're about to cum."
-    jen "Got it, idiot?"
+    jen "А теперь сядь на мою кровать и ничего не говори, пока я готовлю шоу..."
+    jen "Просто сиди сложа руки, и держи, своего петуха хорошо и жестко, и дайте мне знать, когда ты собираешься кончить."
+    jen "Поняла, придурок?"
     show jenny 109
-    jen "We have to keep up this boyfriend facade while we're on camera."
+    jen "Мы должны продолжать в том же духе, пока нас снимают."
     show jenny 108
     show player 21
-    player_name "Okay..."
+    player_name "Окей..."
     return
 
 label jenny_dialogue_cam_show_pre_outside:
@@ -240,23 +240,23 @@ label jenny_dialogue_cam_show_pre_outside:
     show player 1 at left
     show jenny_cheer2 zorder 2 at Position(xpos=797,ypos=757)
     with fade
-    jen "Ugh... this thing is so tight!"
+    jen "Тьфу... эта штука такая тугая!"
     show player 21
     show jenny 167
-    player_name "I think it looks good..."
+    player_name "Я думаю, что это выглядит хорошо..."
     show player 11
     show jenny 166
-    jen "Stop with your cheap flattery."
+    jen "Прекрати свою дешевую лесть."
     show jenny 166
     show player 11
-    jen "Now, just sit on my bed and don't say anything while I set up the cam show..."
-    jen "Just sit back, keep that cock of yours nice and hard, and let me know when you're about to cum."
-    jen "Got it, idiot?"
+    jen "А теперь сядь на мою кровать и ничего не говори, пока я готовлю шоу..."
+    jen "Просто сиди сложа руки, и держи, своего петуха хорошо и жестко, и дайте мне знать, когда ты собираешься кончить."
+    jen "Поняла, придурок?"
     show jenny 109
-    jen "They need to think you're my boyfriend."
+    jen "Они должны думать, что ты мой парень."
     show jenny 108
     show player 21
-    player_name "Okay..."
+    player_name "Окей..."
     return
 
 label jenny_dialogue_cam_show_pre_after:
@@ -266,31 +266,31 @@ label jenny_dialogue_cam_show_pre_after:
     show playersex 116 zorder 1 at Position(xpos=690,ypos=630)
     show xtra 20 zorder 4 at left
     with fade
-    jen "Alright, we're live!"
+    jen "Хорошо, мы в прямом эфире!"
     show jenny 155
-    jen "Heyyy guys!"
+    jen "Эй ребята!"
     show jenny 151
-    jen "Sorry to keep you waiting! I had to go fetch my boyfriend!"
-    jen "He's been veeery bad and now I have to teach him a lesson!"
-    jen "Let's get started, shall we?"
+    jen "Извините, что заставила вас ждать! Я должна была позвать своего парня!"
+    jen "Он был очень плох, и теперь я должна преподать ему урок!"
+    jen "Давайте приступим?"
     hide jenny
     hide jenny_cheer1
     show jennysex 133 zorder 2 at Position(xanchor=0,xpos=0,ypos=650)
     show playersex 116b
     with fastdissolve
-    jen "Just gotta do a few things..."
+    jen "Просто нужно сделать несколько вещей..."
     hide jennysex
     show jennysex 104 zorder 1 at Position(xpos=122,ypos=540)
     show playersex 119 zorder 2 at Position(xpos=455,ypos=768)
     with fastdissolve
-    jen "Let me remove this skirt first..."
+    jen "Сначала я сниму эту юбку..."
     show jennysex 105 at Position(xpos=144,ypos=544) with fastdissolve
     pause
     show jennysex 106 at Position(xpos=170,ypos=542) with fastdissolve
-    jen "Now, let's use these to make sure he doesn't go anywhere, while I fuck his brains out..."
+    jen "Теперь давай используем это, чтобы убедиться, что он никуда не уйдет, пока я выебу его мозги..."
     show jennysex 106b
     show playersex 120
-    player_name "You're not really going to-"
+    player_name "Ты на самом деле не собираешься-"
     show jennysex 107 zorder 2 at Position(xpos=300,ypos=542)
     show playersex 122 zorder 1 at Position(xpos=554,ypos=768)
     with fastdissolve
@@ -298,52 +298,52 @@ label jenny_dialogue_cam_show_pre_after:
     show playersex 125
     show jennysex 109 at Position(xpos=357,ypos=620)
     with fastdissolve
-    jen "What do you say guys? Should we find out what's hiding under his shorts?"
+    jen "Что вы скажете, ребята? Должны ли мы выяснить, что скрывается под его шортами?"
     show jennysex 108
     player_name "..."
     show jennysex 111 at Position(xpos=375,ypos=634) with fastdissolve
-    jen "Oh, wow..."
+    jen "О, вау..."
     show jennysex 112 at Position(xpos=374,ypos=674)
     show playersex 127
-    jen "Will you look at that nice, thick, long cock..." with vpunch
+    jen "Посмотрите на этот красивый, толстый, длинный член..." with vpunch
     show jennysex 113 with fastdissolve
-    jen "Let's make it nice and hard."
+    jen "Давай сделаем это красиво и жестко."
     show jennysex 115b with fastdissolve
     pause
     show jennysex 114b_115b
     pause 8
     show jennysex 114
-    jen "I wonder if it'll fit inside me..."
+    jen "Интересно, поместится ли это внутри меня..."
     show jennysex 115b
     player_name "!!!"
     show playersex 126
-    player_name "Wait... You're on the pill, right?"
+    player_name "Подожди... Ты принимаешь таблетки, верно?"
     show jennysex 110b at Position(xpos=423,ypos=674)
     show playersex 127b
-    jen "Shhh!!!" with hpunch
-    jen "You don't have to worry about that!!"
-    jen "Just do what you did last time and we'll be fine!"
+    jen "Шшш!!!" with hpunch
+    jen "Тебе не нужно беспокоиться об этом!!"
+    jen "Просто сделай то, что сделал в прошлый раз, и все будет хорошо!"
     show jennysex 114 at Position(xpos=374,ypos=674)
     show playersex 127
     with fastdissolve
-    jen "Sorry about that, guys!"
+    jen "Извините за это, ребята!"
     show jennysex 115
-    jen "My boyfriend is just... shy."
+    jen "Мой парень просто... застенчивый."
     show jennysex 114
-    jen "Now, let's give you what you've all been waiting for..."
+    jen "Теперь давайте дадим вам то, чего вы все так долго ждали..."
     show jennysex 116 at right with dissolve
     pause
     show jennysex 119b at Position(xpos = 939, ypos = 674) with fastdissolve
-    jen "Oh, YESS!!"
+    jen "О, да!!"
     show jennysex 117b with fastdissolve
-    jen "It's so... {b}deep{/b}!!"
+    jen "Это так... {b}глубоко{/b}!!"
     $ M_jenny.set('sex speed', .3)
     show expression AnimatedImage("jennysex", [117,118,119,120,121], M_jenny) as jennysex at Position(xpos = 939, ypos = 674)
     pause 8
     show jennysex 117b
-    jen "His cock is SO much better than any of my toys..."
+    jen "Его член намного лучше, чем любая из моих игрушек..."
     show jennysex 118b
-    jen "It's really stretching me out..."
+    jen "Это действительно растягивает меня..."
     show jennysex 119
     pause
     show jennysex 120
@@ -393,11 +393,11 @@ label sis_cheerleader_fuck_looprep:
 
 label jenny_cheerleader_hscene_dialog:
     if animcounter == 1:
-        jen "Ahhhh!!!{p=1}{nw}"
+        jen "Ахххх!!!{p=1}{nw}"
 
     elif animcounter == 3:
-        jen "Oh!!!{p=1}{nw}"
-        player_name "Uhhh...{p=1}{nw}"
+        jen "Ох!!!{p=1}{nw}"
+        player_name "Уххх...{p=1}{nw}"
     return
 
 label sis_cheerleader_fuck_cum_outside:
@@ -416,9 +416,9 @@ label sis_cheerleader_fuck_cum_outside:
     jump expression game.dialog_select("hallway_dialogue")
 
 label sis_cheerleader_fuck_cum_outside_animation:
-    jen "( I can feel his dick... )"
-    jen "( ... it's throbbing like crazy... )"
-    jen "( ... is he about to cum?! )"
+    jen "( Я чувствую его член... )"
+    jen "( ... он пульсирует, как сумасшедший... )"
+    jen "( ... он собирается кончить?! )"
     pause
     show jennysex 130b
     with vpunch
@@ -426,11 +426,11 @@ label sis_cheerleader_fuck_cum_outside_animation:
 
 label sis_cheerleader_fuck_cum_outside_manual:
     show jennysex 117 at Position(xpos = 939, ypos = 674)
-    jen "( I can feel his dick... )"
+    jen "( Я чувствую его член... )"
     show jennysex 118
-    jen "( ... it's throbbing like crazy... )"
+    jen "( ... он пульсирует, как сумасшедший... )"
     show jennysex 119
-    jen "( ... is he about to cum?! )"
+    jen "( ... он собирается кончить?! )"
     show jennysex 120
     pause
     show jennysex 130b at Position(xpos=939,ypos=674)
@@ -438,7 +438,7 @@ label sis_cheerleader_fuck_cum_outside_manual:
     return
 
 label sis_cheerleader_fuck_cum_outside_after:
-    jen "Ahh!!"
+    jen "Ахх!!"
     show jennysex 130
     show white zorder 5
     show playersexc 129 zorder 4 at Position(xpos=560,ypos=377)
@@ -447,10 +447,10 @@ label sis_cheerleader_fuck_cum_outside_after:
     show playersexc 130 at Position(xpos=609,ypos=423) with fastdissolve
     pause
     show jennysex 130b
-    jen "Wow..."
-    jen "Can you guys see my gaping pussy?"
-    jen "And all that hot cum running down my back..."
-    jen "I hope you guys liked it!"
+    jen "Вау..."
+    jen "Ребята, вы видите мою зияющую киску?"
+    jen "И вся эта горячая сперма бежит по моей спине..."
+    jen "Надеюсь, вам понравилось!"
     return
 
 label sis_cheerleader_break_free_fail:
@@ -461,21 +461,21 @@ label sis_cheerleader_break_free_fail:
     call screen sis_cheerleader_sex_options
 
 label sis_cheerleader_break_free_fail_animation:
-    player_name "[str_warn]( Hey, these cuffs don't feel that sturdy... )"
-    player_name "[str_warn]( Come on... )"
-    player_name "[str_warn]( Damn it, I can't break free. )"
-    player_name "[str_warn]( I'm not strong enough... )"
+    player_name "[str_warn]( Эй, эти наручники не такие крепкие... )"
+    player_name "[str_warn]( Давай... )"
+    player_name "[str_warn]( Черт возьми, я не могу вырваться. )"
+    player_name "[str_warn]( Я недостаточно силён... )"
     return
 
 label sis_cheerleader_break_free_fail_manual:
     show jennysex 117 at Position(xpos = 939, ypos = 674)
-    player_name "[str_warn]( Hey, these cuffs don't feel that sturdy... )"
+    player_name "[str_warn]( Эй, эти наручники не такие крепкие... )"
     show jennysex 118
-    player_name "[str_warn]( Come on... )"
+    player_name "[str_warn]( Давай... )"
     show jennysex 119
-    player_name "[str_warn]( Damn it, I can't break free. )"
+    player_name "[str_warn]( Черт возьми, я не могу вырваться. )"
     show jennysex 120
-    player_name "[str_warn]( I'm not strong enough... )"
+    player_name "[str_warn]( Я недостаточно силён... )"
     show jennysex 121
     return
 
